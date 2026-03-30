@@ -1,0 +1,285 @@
+{
+  "common": {
+    "learnMore": "Meer Info",
+    "bookNow": "Boek Nu",
+    "submit": "Verstuur",
+    "loading": "Laden...",
+    "locale": "nl-BE"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Over Jenni",
+    "services": "Diensten",
+    "booking": "Boeking",
+    "bookNow": "Boek Nu",
+    "toggleMenu": "Menu wisselen"
+  },
+  "hero": {
+    "imageAlt": "Prachtig gelifte wimpers bij een serene vrouw",
+    "title": {
+      "main": "Versterk Je Natuurlijke Schoonheid",
+      "highlight": "Met LashLift"
+    },
+    "subtitle": "Ontdek de magie van perfect gelifte wimpers. Langdurig, natuurlijk en moeiteloos elegant. Gevestigd in hartje Antwerpen.",
+    "ctaBook": "Boek Je Afspraak",
+    "ctaServices": "Ontdek Diensten"
+  },
+  "beforeAfter": {
+    "title": {
+      "main": "Zie de",
+      "highlight": "Transformatie"
+    },
+    "subtitle": "Onze lash lifts zorgen voor een verbluffende maar natuurlijke verbetering. Wees getuige van het verschil!",
+    "beforeLabel": "Voor",
+    "afterLabel": "Na",
+    "image1": {
+      "beforeAlt": "Rechte wimpers voor lash lift",
+      "afterAlt": "Gelifte wimpers na behandeling"
+    },
+    "image2": {
+      "beforeAlt": "Natuurlijke wimpers voor verbetering",
+      "afterAlt": "Gedefinieerde wimpers na lash lift"
+    },
+    "imageCaption": "Voorbeeld",
+    "ctaViewGallery": "Bekijk Volledige Galerij"
+  },
+  "servicesOverview": {
+    "title": {
+      "main": "Onze Kenmerkende",
+      "highlight": "Behandelingen"
+    },
+    "subtitle": "Kies de perfecte lash lift ervaring, afgestemd op jouw wensen.",
+    "withTint": {
+      "title": "Lash Lift met Verven",
+      "description": "Bereik prachtig gelifte wimpers met een extra vleugje kleur voor extra definitie en diepte. Word wakker en klaar!"
+    },
+    "withoutTint": {
+      "title": "Lash Lift (Zonder Verven)",
+      "description": "Geniet van perfect gekrulde wimpers die je natuurlijke schoonheid versterken, waardoor je ogen een meer open en wakkere blik krijgen."
+    },
+    "learnMore": "Ontdek Meer"
+  },
+  "whyLashLifting": {
+    "title": {
+      "main": "Waarom Kiezen",
+      "highlight": "voor Lash Lifting?"
+    },
+    "subtitle": "Ervaar de talrijke voordelen van een professionele lash lift bij LashLift by Jenni.",
+    "imageAlt": "Close-up van perfect gelifte natuurlijke wimpers",
+    "benefits": {
+      "naturalLook": {
+        "title": "Verbluffende Natuurlijke Look",
+        "description": "Verbetert je eigen wimpers voor een mooie, natuurlijke krul zonder extensions."
+      },
+      "longLasting": {
+        "title": "Langdurig Resultaat",
+        "description": "Geniet 6-8 weken van je prachtige gelifte wimpers met de juiste verzorging."
+      },
+      "lowMaintenance": {
+        "title": "Weinig Onderhoud",
+        "description": "Word elke dag wakker met perfecte wimpers. Geen mascara nodig (tenzij je extra drama wilt!)."
+      },
+      "safeGentle": {
+        "title": "Veilig & Zacht",
+        "description": "Onze technieken en producten zijn gekozen vanwege hun veiligheid en zachtheid voor je natuurlijke wimpers."
+      }
+    }
+  },
+  "ctaHome": {
+    "title": "Klaar voor Jouw Wimpertransformatie?",
+    "subtitle": "Boek vandaag nog je afspraak en laat Jenni haar magie op je wimpers los. Ervaar het zelfvertrouwen van natuurlijk mooie ogen!",
+    "buttonText": "Plan Je Bezoek"
+  },
+  "aboutPage": {
+    "title": {
+      "main": "Ontmoet Jenni,",
+      "highlight": "Jouw Wimperartieste"
+    },
+    "subtitle": "Gepassioneerd door het verbeteren van natuurlijke schoonheid, één lash lift per keer.",
+    "ownerImageAlt": "Portret van Jenni, de wimperartieste",
+    "story": {
+      "title": "Mijn Reis in Wimperkunst",
+      "paragraph1": "Hallo! Ik ben Jenni, het hart en de handen achter LashLift by Jenni. Mijn passie voor schoonheid en nauwgezette aandacht voor detail hebben me naar de kunst van het lash liften geleid. Ik geloof dat ware schoonheid van binnenuit straalt, en mijn doel is om je natuurlijke kenmerken te verbeteren, zodat je je zelfverzekerd en stralend voelt.",
+      "paragraph2": "Gevestigd in de bruisende stad Antwerpen, heb ik me toegelegd op het beheersen van de technieken die verbluffende, natuurlijk ogende resultaten opleveren. Elke behandeling wordt uitgevoerd met de grootste zorg, precisie en een persoonlijke touch.",
+      "paragraph3": "Ik hou ervan om contact te maken met mijn klanten, hun wensen te begrijpen en hun vreugde te zien wanneer ze hun getransformeerde wimpers zien. Het is meer dan alleen een behandeling; het is een ervaring van zelfzorg en verbetering."
+    },
+    "mission": {
+      "title": "Onze Missie",
+      "statement": "Natuurlijke schoonheid verbeteren met zorg en precisie, een ontspannende en opbeurende ervaring bieden die je zelfverzekerd en mooi laat voelen."
+    },
+    "values": {
+      "title": "Waar Ik In Geloof",
+      "care": {
+        "title": "Persoonlijke Zorg",
+        "description": "Elke klant is uniek. Ik neem de tijd om je behoeften te begrijpen en de service op maat te maken voor de beste resultaten."
+      },
+      "precision": {
+        "title": "Nauwgezette Precisie",
+        "description": "Lash lifting is een kunst. Ik focus op elk detail om elke keer een vlekkeloze, mooie lift te garanderen."
+      },
+      "passion": {
+        "title": "Oprechte Passie",
+        "description": "Ik hou echt van wat ik doe, en deze passie weerspiegelt zich in de kwaliteit van mijn werk en klantervaring."
+      }
+    },
+    "studio": {
+      "title": "Mijn Gezellige Studio",
+      "image1Alt": "Interieur van LashLift by Jenni studio",
+      "image2Alt": "Wimperlift tools en producten",
+      "caption": "Een rustige en uitnodigende ruimte ontworpen voor jouw comfort en ontspanning."
+    }
+  },
+  "servicesPage": {
+    "mainTitle": {
+      "main": "Onze Wimperlifting",
+      "highlight": "Diensten"
+    },
+    "mainSubtitle": "Verwen jezelf met onze gespecialiseerde wimperliftbehandelingen, ontworpen om je moeiteloos mooie wimpers te geven.",
+    "common": {
+      "durationLabel": "Duur",
+      "benefitsTitle": "Belangrijkste Voordelen",
+      "galleryTitle": "Resultaten Galerij",
+      "bookButton": "Boek Deze Dienst"
+    },
+    "withTint": {
+      "title": "Lash Lift met Tint",
+      "description": "De ultieme wimpertransformatie! Deze dienst lift je natuurlijke wimpers vanaf de wortel, creëert de illusie van lengte en volume, en voegt vervolgens een aangepaste tint toe om je wimpers donkerder te maken. Perfect voor wie een mascara-achtig effect wil zonder dagelijkse moeite.",
+      "duration": "Ongeveer 1 uur 45 min - 2 uur",
+      "benefits": [
+        "Wimpers lijken langer, voller en donkerder",
+        "Ogen zien er opener en gedefinieerder uit",
+        "Geen mascara nodig",
+        "Waterproof en smudge-proof resultaten"
+      ],
+      "image1Alt": "Voor en na lash lift met verven - voorbeeld 1",
+      "image1Desc": "Wimpers voor zijn recht, na zijn gelift en donker geverfd.",
+      "image2Alt": "Voor en na lash lift met verven - voorbeeld 2",
+      "image2Desc": "Nog een voorbeeld van wimpers getransformeerd met lift en verven."
+    },
+    "withoutTint": {
+      "title": "Lash Lift Zonder Tint",
+      "description": "Deze dienst lift en krult je natuurlijke wimpers prachtig vanaf de wortel, waardoor ze een langer, voller uiterlijk krijgen. Ideaal voor wie van nature donkere wimpers heeft of een subtielere verbetering verkiest zonder toegevoegde kleur.",
+      "duration": "Ongeveer 1 uur 30 min - 1 uur 45 min",
+      "benefits": [
+        "Verbetert de natuurlijke wimperkrul en lift",
+        "Laat ogen groter en wakkerder lijken",
+        "Perfect voor een 'jouw wimpers maar beter' look",
+        "Geweldig voor mensen die gevoelig zijn voor verf"
+      ],
+      "image1Alt": "Voor en na lash lift zonder verven - voorbeeld 1",
+      "image1Desc": "Wimpers voor zijn minder gekruld, na zijn perfect gelift.",
+      "image2Alt": "Voor en na lash lift zonder verven - voorbeeld 2",
+      "image2Desc": "Subtiele maar impactvolle lift zonder verven."
+    },
+    "cta": {
+      "title": "Klaar voor Vlekkeloze Wimpers?",
+      "subtitle": "Trakteer jezelf op een wimperlift en word elke dag wakker met perfect gekrulde, mooie wimpers. Boek vandaag nog je afspraak bij Jenni!",
+      "button": "Plan Je Afspraak"
+    }
+  },
+  "bookingPage": {
+    "title": {
+      "main": "Boek Je",
+      "highlight": "Afspraak"
+    },
+    "subtitle": "Ik kijk ernaar uit je te verwelkomen! Vul alsjeblieft het onderstaande formulier in om je voorkeursdatum en -tijd aan te vragen. Ik neem spoedig contact met je op om te bevestigen.",
+    "formIntro": "Veldengemarkeerd met * zijn verplicht. Voor dringende verzoeken, gelieve te bellen.",
+    "form": {
+      "name": {
+        "label": "Volledige Naam *",
+        "placeholder": "Jouw Naam"
+      },
+      "email": {
+        "label": "E-mailadres *",
+        "placeholder": "jij@voorbeeld.com"
+      },
+      "phone": {
+        "label": "Telefoonnummer (Optioneel)",
+        "placeholder": "bv. +32 4XX XX XX XX"
+      },
+      "service": {
+        "label": "Kies Je Dienst *",
+        "options": {
+          "withTint": "Lash Lift met Verven",
+          "withoutTint": "Lash Lift (Zonder Verven)"
+        }
+      },
+      "date": {
+        "label": "Voorkeursdatum *"
+      },
+      "time": {
+        "label": "Voorkeurstijd *"
+      },
+      "message": {
+        "label": "Extra Opmerkingen (Optioneel)",
+        "placeholder": "Vragen of speciale verzoeken?"
+      },
+      "submitButton": "Afspraak Aanvragen",
+      "submittingButton": "Verzoek Verzenden...",
+      "note": "Let op: dit is een aanvraag. Je afspraak is bevestigd zodra je een bevestigingsbericht van mij ontvangt."
+    },
+    "confirmation": {
+      "title": "Verzoek Verzonden!",
+      "message": "Bedankt voor je boekingsaanvraag! Jenni neemt spoedig contact met je op om je afspraakdetails te bevestigen. Controleer je e-mail (en spamfolder)!"
+    },
+    "toast": {
+      "successTitle": "Boekingsaanvraag Verzonden!",
+      "successDescription": "Jenni neemt spoedig contact op ter bevestiging."
+    }
+  },
+  "adminLogin": {
+    "title": "Admin Toegang",
+    "subtitle": "Voer je wachtwoord in om boekingen te beheren.",
+    "passwordLabel": "Wachtwoord",
+    "loginButton": "Inloggen",
+    "loggingInButton": "Inloggen...",
+    "toast": {
+      "successTitle": "Succesvol Ingelogd",
+      "successDescription": "Doorsturen naar dashboard...",
+      "errorTitle": "Inloggen Mislukt",
+      "errorDescription": "Onjuist wachtwoord. Probeer opnieuw."
+    }
+  },
+  "adminDashboard": {
+    "title": "Admin Dashboard",
+    "logoutButton": "Uitloggen",
+    "logoutSuccessTitle": "Uitgelogd",
+    "logoutSuccessDescription": "Je bent succesvol uitgelogd.",
+    "manageSlotsTitle": "Beheer Beschikbare Tijdsloten",
+    "manageSlotsDescription": "Voeg tijdsloten toe, verwijder ze, of blokkeer datums voor boekingen. (Deze functie vereist backend-integratie)",
+    "addSlotsButton": "Configureer Tijdsloten",
+    "featureComingSoon": "Volledige functionaliteit binnenkort beschikbaar met backend-integratie.",
+    "bookingsTitle": "Klantboekingen",
+    "noBookings": "Nog geen boekingsaanvragen.",
+    "submittedOn": "Ingediend op",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefoon",
+    "serviceLabel": "Dienst",
+    "messageLabel": "Bericht",
+    "deleteButton": "Verwijderen",
+    "markDoneButton": "Markeer als Voltooid",
+    "markPendingButton": "Markeer als In Behandeling"
+  },
+  "footer": {
+    "tagline": "Versterk je natuurlijke schoonheid, wimper per wimper. Gevestigd in Antwerpen.",
+    "quickLinks": "Snelle Links",
+    "contactUs": "Contacteer Jenni",
+    "address": {
+      "line1": "Jouw Straatnaam 123",
+      "line2": "2000 Antwerpen, België"
+    },
+    "phoneDisplay": "+32 4XX XX XX XX",
+    "phoneLink": "+32400000000",
+    "email": "lashliftbyjenni@outlook.com",
+    "openingHours": {
+      "title": "Openingsuren",
+      "days": "Ma - Vr",
+      "time": "10:00 - 18:00",
+      "weekend": "Za - Zo",
+      "weekend_status": "Enkel op Afspraak"
+    },
+    "rightsReserved": "Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden"
+  }
+}

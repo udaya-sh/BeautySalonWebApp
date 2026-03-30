@@ -1,0 +1,283 @@
+{
+  "common": {
+    "learnMore": "Learn More",
+    "bookNow": "Book Now",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "locale": "en-US"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Jenni",
+    "services": "Services",
+    "booking": "Booking",
+    "bookNow": "Book Now",
+    "toggleMenu": "Toggle menu",
+    "contact": "Contact"
+  },
+  "hero": {
+         "subtitle": "Ladies Hair Salon & Beauty",
+      "title": "The Art of Beauty,\nReimagined",
+      "description": "Discover an exceptional beauty experience in our salon. Hair styling, facials, manicures and more — every visit is a moment of luxury.",
+      "cta": "Book Now",
+      "discover": "Discover Our Services"
+  },
+  "beforeAfter": {
+    "title": {
+      "main": "See the",
+      "highlight": "Transformation"
+    },
+    "subtitle": "Our lash lifts provide a stunning yet natural enhancement. Witness the difference!",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "image1": {
+      "beforeAlt": "Straight lashes before lash lift",
+      "afterAlt": "Lifted lashes after treatment"
+    },
+    "image2": {
+      "beforeAlt": "Natural lashes before enhancement",
+      "afterAlt": "Defined lashes post-lash lift"
+    },
+    "imageCaption": "Example",
+    "ctaViewGallery": "View Full Gallery"
+  },
+  "servicesOverview": {
+    "title": {
+      "main": "Our Signature",
+      "highlight": "Treatments"
+    },
+    "subtitle": "Choose the perfect lash lift experience tailored to your desires.",
+    "withTint": {
+      "title": "Lash Lift with Tint",
+      "description": "Achieve beautifully lifted lashes with an added touch of color for extra definition and depth. Wake up ready!"
+    },
+    "withoutTint": {
+      "title": "Lash Lift (No Tint)",
+      "description": "Enjoy perfectly curled lashes that enhance your natural beauty, giving your eyes a more open and awake look."
+    },
+    "learnMore": "Learn More"
+  },
+  "whyLashLifting": {
+    "title": {
+      "main": "Why Choose",
+      "highlight": "Lash Lifting?"
+    },
+    "subtitle": "Experience the numerous benefits of a professional lash lift at LashLift by Jenni.",
+    "imageAlt": "Close-up of perfectly lifted natural lashes",
+    "benefits": {
+      "naturalLook": {
+        "title": "Stunning Natural Look",
+        "description": "Enhances your own lashes for a beautiful, natural curl without extensions."
+      },
+      "longLasting": {
+        "title": "Long-Lasting Results",
+        "description": "Enjoy your gorgeous lifted lashes for 6-8 weeks with proper care."
+      },
+      "lowMaintenance": {
+        "title": "Low Maintenance",
+        "description": "Wake up with perfect lashes every day. No mascara needed (unless you want extra drama!)."
+      },
+      "safeGentle": {
+        "title": "Safe & Gentle",
+        "description": "Our techniques and products are chosen for their safety and gentleness on your natural lashes."
+      }
+    }
+  },
+  "ctaHome": {
+    "title": "Ready for Your Lash Transformation?",
+    "subtitle": "Book your appointment today and let Jenni work her magic on your lashes. Experience the confidence of naturally beautiful eyes!",
+    "buttonText": "Schedule Your Visit"
+  },
+  "aboutPage": {
+    "title": {
+      "main": "Meet Jenni,",
+      "highlight": "Your Lash Artist"
+    },
+    "subtitle": "Passionate about enhancing natural beauty, one lash lift at a time.",
+    "ownerImageAlt": "Portrait of Jenni, the lash artist",
+    "story": {
+      "title": "My Journey into Lash Artistry",
+      "paragraph1": "Hello! I'm Jenni, the heart and hands behind LashLift by Jenni. My passion for beauty and meticulous attention to detail led me to the art of lash lifting. I believe that true beauty shines from within, and my goal is to enhance your natural features, making you feel confident and radiant.",
+      "paragraph2": "Based in the vibrant city of Antwerp, I've dedicated myself to mastering the techniques that deliver stunning, natural-looking results. Each treatment is performed with utmost care, precision, and a personal touch.",
+      "paragraph3": "I love connecting with my clients, understanding their desires, and seeing their joy when they see their transformed lashes. It's more than just a treatment; it's an experience of self-care and enhancement."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "statement": "To enhance natural beauty with care and precision, providing a relaxing and uplifting experience that leaves you feeling confident and beautiful."
+    },
+    "values": {
+      "title": "What I Believe In",
+      "care": {
+        "title": "Personalized Care",
+        "description": "Every client is unique. I take the time to understand your needs and tailor the service for the best results."
+      },
+      "precision": {
+        "title": "Meticulous Precision",
+        "description": "Lash lifting is an art. I focus on every detail to ensure a flawless, beautiful lift every time."
+      },
+      "passion": {
+        "title": "Genuine Passion",
+        "description": "I truly love what I do, and this passion reflects in the quality of my work and client experience."
+      }
+    },
+    "studio": {
+      "title": "My Cozy Studio",
+      "image1Alt": "Interior of LashLift by Jenni studio",
+      "image2Alt": "Lash lifting tools and products",
+      "caption": "A calm and inviting space designed for your comfort and relaxation."
+    }
+  },
+  "servicesPage": {
+    "mainTitle": {
+      "main": "Our Lash Lifting",
+      "highlight": "Services"
+    },
+    "mainSubtitle": "Indulge in our specialized lash lifting treatments designed to give you effortlessly beautiful lashes.",
+    "common": {
+      "durationLabel": "Duration",
+      "benefitsTitle": "Key Benefits",
+      "galleryTitle": "Results Gallery",
+      "bookButton": "Book This Service"
+    },
+    "withTint": {
+      "title": "Lash Lift with Tint",
+      "description": "The ultimate lash transformation! This service lifts your natural lashes from the root, creating the illusion of length and volume, and then adds a custom tint to darken your lashes. Perfect for those who want a mascara-like effect without the daily hassle.",
+      "duration": "Approx. 1 hour 45 mins - 2 hours",
+      "benefits": [
+        "Lashes appear longer, fuller, and darker",
+        "Eyes look more open and defined",
+        "No need for mascara",
+        "Waterproof and smudge-proof results"
+      ],
+      "image1Alt": "Before and after lash lift with tint - example 1",
+      "image1Desc": "Lashes before are straight, after are lifted and tinted dark.",
+      "image2Alt": "Before and after lash lift with tint - example 2",
+      "image2Desc": "Another example of lashes transformed with lift and tint."
+    },
+    "withoutTint": {
+      "title": "Lash Lift (No Tint)",
+      "description": "This service beautifully lifts and curls your natural lashes from the root, giving them a longer, fuller appearance. Ideal for those who have naturally dark lashes or prefer a more subtle enhancement without added color.",
+      "duration": "Approx. 1 hour 30 mins - 1 hour 45 mins",
+      "benefits": [
+        "Enhances natural lash curl and lift",
+        "Makes eyes appear larger and more awake",
+        "Perfect for a 'your lashes but better' look",
+        "Great for those sensitive to tints"
+      ],
+      "image1Alt": "Before and after lash lift without tint - example 1",
+      "image1Desc": "Lashes before are less curled, after are perfectly lifted.",
+      "image2Alt": "Before and after lash lift without tint - example 2",
+      "image2Desc": "Subtle yet impactful lift without tint."
+    },
+    "cta": {
+      "title": "Ready for Flawless Lashes?",
+      "subtitle": "Treat yourself to a lash lift and wake up every day with perfectly curled, beautiful lashes. Book your appointment with Jenni today!",
+      "button": "Schedule Your Appointment"
+    }
+  },
+  "bookingPage": {
+    "title": {
+      "main": "Book Your",
+      "highlight": "Appointment"
+    },
+    "subtitle": "I'm excited to welcome you! Please fill out the form below to request your preferred date and time. I'll get back to you shortly to confirm.",
+    "formIntro": "Fields marked with * are required. For urgent requests, please call.",
+    "form": {
+      "name": {
+        "label": "Full Name *",
+        "placeholder": "Your Name"
+      },
+      "email": {
+        "label": "Email Address *",
+        "placeholder": "you@example.com"
+      },
+      "phone": {
+        "label": "Phone Number (Optional)",
+        "placeholder": "e.g., +32 4XX XX XX XX"
+      },
+      "service": {
+        "label": "Choose Your Service *",
+        "options": {
+          "withTint": "Lash Lift with Tint",
+          "withoutTint": "Lash Lift (No Tint)"
+        }
+      },
+      "date": {
+        "label": "Preferred Date *"
+      },
+      "time": {
+        "label": "Preferred Time *"
+      },
+      "message": {
+        "label": "Additional Notes (Optional)",
+        "placeholder": "Any questions or special requests?"
+      },
+      "submitButton": "Request Appointment",
+      "submittingButton": "Sending Request...",
+      "note": "Please note this is a request. Your appointment is confirmed once you receive a confirmation message from me."
+    },
+    "confirmation": {
+      "title": "Request Sent!",
+      "message": "Thank you for your booking request! Jenni will contact you soon to confirm your appointment details. Check your email (and spam folder)!"
+    },
+    "toast": {
+      "successTitle": "Booking Request Sent!",
+      "successDescription": "Jenni will be in touch soon to confirm."
+    }
+  },
+  "adminLogin": {
+    "title": "Admin Access",
+    "subtitle": "Please enter your password to manage bookings.",
+    "passwordLabel": "Password",
+    "loginButton": "Login",
+    "loggingInButton": "Logging In...",
+    "toast": {
+      "successTitle": "Login Successful",
+      "successDescription": "Redirecting to dashboard...",
+      "errorTitle": "Login Failed",
+      "errorDescription": "Incorrect password. Please try again."
+    }
+  },
+  "adminDashboard": {
+    "title": "Admin Dashboard",
+    "logoutButton": "Logout",
+    "logoutSuccessTitle": "Logged Out",
+    "logoutSuccessDescription": "You have been successfully logged out.",
+    "manageSlotsTitle": "Manage Available Time Slots",
+    "manageSlotsDescription": "Add, remove, or block out dates for bookings. (This feature requires backend integration)",
+    "addSlotsButton": "Configure Time Slots",
+    "featureComingSoon": "Full functionality coming soon with backend integration.",
+    "bookingsTitle": "Client Bookings",
+    "noBookings": "No booking requests yet.",
+    "submittedOn": "Submitted",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "serviceLabel": "Service",
+    "messageLabel": "Message",
+    "deleteButton": "Delete",
+    "markDoneButton": "Mark as Done",
+    "markPendingButton": "Mark as Pending"
+  },
+  "footer": {
+    "tagline": "Enhancing your natural beauty, one lash at a time. Located in Antwerp.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Jenni",
+    "address": {
+      "line1": "Your Street Name 123",
+      "line2": "2000 Antwerp, Belgium"
+    },
+    "phoneDisplay": "+32 4XX XX XX XX",
+    "phoneLink": "+32400000000",
+    "email": "hello@lashliftbyjenni.be",
+    "openingHours": {
+      "title": "Working Hours",
+      "days": "Mon - Fri",
+      "time": "10:00 - 18:00",
+      "weekend": "Sat - Sun",
+      "weekend_status": "By Appointment Only"
+    },
+    "rightsReserved": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
