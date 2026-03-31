@@ -1,153 +1,113 @@
-import React from "react";
-import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
+"use client";
+
 import Link from "next/link";
+import { Instagram, Facebook } from "lucide-react";
 import { useTranslations } from "next-intl";
-import Image from "next/image";
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  const t = useTranslations();
+
+const TikTokIcon = () => (
+  <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
+    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.75a8.28 8.28 0 0 0 4.84 1.55V6.85a4.85 4.85 0 0 1-1.07-.16z"/>
+  </svg>
+);
+
+export default function Footer() {
+  const t = useTranslations("footer");
+  const nav = useTranslations("nav");
 
   return (
-    <footer className="bg-muted pt-16 pb-8 text-primary">
-      {/* Muted background, secondary text */}
-      <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
-          <div>
-            <Link href="/" className="flex items-center">
-              <div
-                className={`text-xl font-bold font-cursive transition-colors duration-300`}
-              >
-                <Image
-                  src="/logo2.png"
-                  alt="logo"
-                  width={120}
-                  height={120}
-                  sizes="(max-width: 600px) 400px, (max-width: 900px) 800px, 1200px"
-                />
-              </div>
-            </Link>
-            <p className="text-sm my-6 mx-0 px-0">{t("footer.tagline")}</p>
-            <div className="flex space-x-4">
-              <a
-                href="https://www.instagram.com/wimper.lifting/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-text-secondary hover:text-primary transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram size={22} className="text-accent"/>
-              </a>
-     
+    <footer className="bg-primary text-primary-foreground">
+      <div className="max-w-7xl mx-auto px-6 py-16 md:py-20">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
+
+          {/* Brand */}
+          <div className="md:col-span-2">
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a84000197_generated_image.png"
+                alt="Logo"
+                className="w-12 h-12 object-contain border-0"
+              />
+              <h3 className="font-heading text-2xl font-semibold">
+                Maison de <span className="text-accent">Beauté</span>
+              </h3>
             </div>
-          </div>
 
-          <div>
-            <p className="font-semibold text-lg mb-5 font-serif text-text-headings">
-              {t("footer.quickLinks")}
+            <p className="text-primary-foreground/70 text-sm leading-relaxed max-w-md">
+              {t("description")}
             </p>
-            <ul className="space-y-3">
-              <li>
-                <Link
-                  href="/"
-                  className="text-sm hover:text-primary transition-colors"
-                >
-                  {t("nav.home")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about"
-                  className="text-sm hover:text-primary transition-colors"
-                >
-                  {t("nav.about")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services"
-                  className="text-sm hover:text-primary transition-colors"
-                >
-                  {t("nav.services")}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/booking"
-                  className="text-sm hover:text-primary transition-colors"
-                >
-                  {t("nav.booking")}
-                </Link>
-              </li>
-            </ul>
-          </div>
 
-          <div>
-            <p className="font-semibold text-lg mb-5 font-serif text-text-headings">
-              {t("footer.contactUs")}
-            </p>
-            <ul className="space-y-4 text-sm">
-              {/* <li className="flex items-center">
-                <Phone size={18} className="mr-3 text-primary flex-shrink-0" />
-                <a href={`tel:${t('footer.phoneLink')}`} className="hover:text-primary">{t('footer.phoneDisplay')}</a>
-              </li> */}
-              <li className="flex items-center">
-                <Mail size={18} className="mr-3 text-primary flex-shrink-0" />
+            <div className="flex gap-4 mt-6">
+              {[
+                { label: "Instagram", icon: <Instagram className="w-4 h-4" /> },
+                { label: "Facebook", icon: <Facebook className="w-4 h-4" /> },
+                { label: "TikTok", icon: <TikTokIcon /> },
+              ].map(({ label, icon }) => (
                 <a
-                  href={`mailto:${t("footer.email")}`}
-                  className="hover:text-primary"
+                  key={label}
+                  href="#"
+                  aria-label={label}
+                  className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center text-primary-foreground/60 hover:bg-primary-foreground/10 hover:text-primary-foreground transition-all"
                 >
-                  {t("footer.email")}
+                  {icon}
                 </a>
-              </li>
-            </ul>
+              ))}
+            </div>
           </div>
 
+          {/* Quick Links */}
           <div>
-            <p className="font-semibold text-lg mb-5 font-serif text-text-headings">
-              {t("footer.openingHours.title")}
-            </p>
-            <ul className="space-y-2 text-sm">
-              <li>{t("footer.openingHours.weekend_status")}</li>
-            </ul>
-            <Link href="/booking">
-              <Button
-                variant="default"
-                className="mt-6 text-sm w-full md:w-auto"
-              >
-                {t("nav.bookNow")}
-              </Button>{" "}
-              {/* Default (primary) button */}
-            </Link>
-          </div>
-        </div>
+            <h4 className="font-heading text-lg font-medium mb-4">
+              {t("quick_links")}
+            </h4>
 
-        <div className="border-t border-border pt-8">
-          {" "}
-          {/* Border color from new palette */}
-          <div className="flex flex-col md:flex-row justify-between items-center text-xs">
-            <p className="mb-4 md:mb-0">
-              © {currentYear} LashLift by Jenni. {t("footer.rightsReserved")}
-            </p>
-            <div className="flex space-x-4">
-              <Link
-                href="/privacy-policy"
-                className="hover:text-primary transition-colors"
-              >
-                {t("footer.privacy")}
+            <div className="space-y-2.5">
+              <Link href="/" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {nav("home")}
               </Link>
-              <Link
-                href="/terms-of-service"
-                className="hover:text-primary transition-colors"
-              >
-                {t("footer.terms")}
+
+              <Link href="/about" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {nav("about")}
+              </Link>
+
+              <Link href="/services" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {nav("services")}
+              </Link>
+
+              <Link href="/contact" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {nav("contact")}
+              </Link>
+            </div>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h4 className="font-heading text-lg font-medium mb-4">
+              {t("legal")}
+            </h4>
+
+            <div className="space-y-2.5">
+              <Link href="/privacy" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {t("privacy")}
+              </Link>
+
+              <Link href="/cookies" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {t("cookies")}
+              </Link>
+
+              <Link href="/terms" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                {t("terms")}
               </Link>
             </div>
           </div>
         </div>
+
+        <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
+          <p className="text-xs text-primary-foreground/40">
+            © {new Date().getFullYear()} Beauté Divine. {t("rights")}
+          </p>
+        </div>
+
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

@@ -8,19 +8,19 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About Jenni",
-    "services": "Services",
+    "about": "About",
+    "services": "Services & Prices",
     "booking": "Booking",
     "bookNow": "Book Now",
     "toggleMenu": "Toggle menu",
     "contact": "Contact"
   },
   "hero": {
-         "subtitle": "Ladies Hair Salon & Beauty",
-      "title": "The Art of Beauty,\nReimagined",
-      "description": "Discover an exceptional beauty experience in our salon. Hair styling, facials, manicures and more — every visit is a moment of luxury.",
-      "cta": "Book Now",
-      "discover": "Discover Our Services"
+    "subtitle": "Ladies Hair Salon & Beauty",
+    "title": "The Art of Beauty,\nReimagined",
+    "description": "Discover an exceptional beauty experience in our salon. Hair styling, facials, manicures and more — every visit is a moment of luxury.",
+    "cta": "Book Now",
+    "discover": "Discover Our Services"
   },
   "beforeAfter": {
     "title": {
@@ -42,20 +42,19 @@
     "ctaViewGallery": "View Full Gallery"
   },
   "servicesOverview": {
-    "title": {
-      "main": "Our Signature",
-      "highlight": "Treatments"
+    "subtitle": "Our Expertise",
+    "title": "Exceptional Services",
+    "description": "From hair styling to complete treatments, we offer a full range of beauty services performed by passionate experts.",
+    "serviceNames": {
+      "hair": "Hair Styling",
+      "skin": "Facial Care",
+      "nails": "Nail Care"
     },
-    "subtitle": "Choose the perfect lash lift experience tailored to your desires.",
-    "withTint": {
-      "title": "Lash Lift with Tint",
-      "description": "Achieve beautifully lifted lashes with an added touch of color for extra definition and depth. Wake up ready!"
-    },
-    "withoutTint": {
-      "title": "Lash Lift (No Tint)",
-      "description": "Enjoy perfectly curled lashes that enhance your natural beauty, giving your eyes a more open and awake look."
-    },
-    "learnMore": "Learn More"
+    "serviceDesc": {
+      "hair": "Cuts, colors and event styling",
+      "skin": "Anti-aging, hydrating and glow treatments",
+      "nails": "Manicure, pedicure and nail art"
+    }
   },
   "whyLashLifting": {
     "title": {
@@ -84,96 +83,182 @@
     }
   },
   "ctaHome": {
-    "title": "Ready for Your Lash Transformation?",
-    "subtitle": "Book your appointment today and let Jenni work her magic on your lashes. Experience the confidence of naturally beautiful eyes!",
-    "buttonText": "Schedule Your Visit"
+    "title": "Ready to Shine?",
+    "description": "Book your appointment today and let us reveal your natural beauty.",
+    "buttonText": "Book an Appointment"
   },
   "aboutPage": {
-    "title": {
-      "main": "Meet Jenni,",
-      "highlight": "Your Lash Artist"
+    "subtitle": "Our Story",
+    "title": "A Passion for Beauty",
+    "p1": "Founded with the vision of creating a space where luxury and well-being meet, our salon has become a benchmark in beauty and personalized care.",
+    "p2": "Our team of passionate experts uses the most advanced techniques and the most prestigious products to offer you an incomparable experience.",
+    "p3": "Each visit is an invitation to a sensory journey, in an elegant and refined setting, designed for your absolute comfort.",
+    "stats": {
+      "years": "Years of Experience",
+      "clients": "Satisfied Clients",
+      "experts": "Beauty Experts",
+      "products": "Premium Products"
     },
-    "subtitle": "Passionate about enhancing natural beauty, one lash lift at a time.",
-    "ownerImageAlt": "Portrait of Jenni, the lash artist",
-    "story": {
-      "title": "My Journey into Lash Artistry",
-      "paragraph1": "Hello! I'm Jenni, the heart and hands behind LashLift by Jenni. My passion for beauty and meticulous attention to detail led me to the art of lash lifting. I believe that true beauty shines from within, and my goal is to enhance your natural features, making you feel confident and radiant.",
-      "paragraph2": "Based in the vibrant city of Antwerp, I've dedicated myself to mastering the techniques that deliver stunning, natural-looking results. Each treatment is performed with utmost care, precision, and a personal touch.",
-      "paragraph3": "I love connecting with my clients, understanding their desires, and seeing their joy when they see their transformed lashes. It's more than just a treatment; it's an experience of self-care and enhancement."
-    },
-    "mission": {
-      "title": "Our Mission",
-      "statement": "To enhance natural beauty with care and precision, providing a relaxing and uplifting experience that leaves you feeling confident and beautiful."
-    },
-    "values": {
-      "title": "What I Believe In",
-      "care": {
-        "title": "Personalized Care",
-        "description": "Every client is unique. I take the time to understand your needs and tailor the service for the best results."
+    "values_title": "Our Values",
+    "values": [
+      {
+        "title": "Excellence",
+        "desc": "We strive for perfection in every gesture and every treatment."
       },
-      "precision": {
-        "title": "Meticulous Precision",
-        "description": "Lash lifting is an art. I focus on every detail to ensure a flawless, beautiful lift every time."
+      {
+        "title": "Personalization",
+        "desc": "Every client is unique, every treatment is tailor-made."
       },
-      "passion": {
-        "title": "Genuine Passion",
-        "description": "I truly love what I do, and this passion reflects in the quality of my work and client experience."
+      {
+        "title": "Innovation",
+        "desc": "We embrace the latest beauty trends and technologies."
+      },
+      {
+        "title": "Well-being",
+        "desc": "Your comfort and serenity are our absolute priority."
       }
-    },
-    "studio": {
-      "title": "My Cozy Studio",
-      "image1Alt": "Interior of LashLift by Jenni studio",
-      "image2Alt": "Lash lifting tools and products",
-      "caption": "A calm and inviting space designed for your comfort and relaxation."
-    }
+    ]
   },
-  "servicesPage": {
-    "mainTitle": {
-      "main": "Our Lash Lifting",
-      "highlight": "Services"
-    },
-    "mainSubtitle": "Indulge in our specialized lash lifting treatments designed to give you effortlessly beautiful lashes.",
-    "common": {
-      "durationLabel": "Duration",
-      "benefitsTitle": "Key Benefits",
-      "galleryTitle": "Results Gallery",
-      "bookButton": "Book This Service"
-    },
-    "withTint": {
-      "title": "Lash Lift with Tint",
-      "description": "The ultimate lash transformation! This service lifts your natural lashes from the root, creating the illusion of length and volume, and then adds a custom tint to darken your lashes. Perfect for those who want a mascara-like effect without the daily hassle.",
-      "duration": "Approx. 1 hour 45 mins - 2 hours",
-      "benefits": [
-        "Lashes appear longer, fuller, and darker",
-        "Eyes look more open and defined",
-        "No need for mascara",
-        "Waterproof and smudge-proof results"
-      ],
-      "image1Alt": "Before and after lash lift with tint - example 1",
-      "image1Desc": "Lashes before are straight, after are lifted and tinted dark.",
-      "image2Alt": "Before and after lash lift with tint - example 2",
-      "image2Desc": "Another example of lashes transformed with lift and tint."
-    },
-    "withoutTint": {
-      "title": "Lash Lift (No Tint)",
-      "description": "This service beautifully lifts and curls your natural lashes from the root, giving them a longer, fuller appearance. Ideal for those who have naturally dark lashes or prefer a more subtle enhancement without added color.",
-      "duration": "Approx. 1 hour 30 mins - 1 hour 45 mins",
-      "benefits": [
-        "Enhances natural lash curl and lift",
-        "Makes eyes appear larger and more awake",
-        "Perfect for a 'your lashes but better' look",
-        "Great for those sensitive to tints"
-      ],
-      "image1Alt": "Before and after lash lift without tint - example 1",
-      "image1Desc": "Lashes before are less curled, after are perfectly lifted.",
-      "image2Alt": "Before and after lash lift without tint - example 2",
-      "image2Desc": "Subtle yet impactful lift without tint."
-    },
-    "cta": {
-      "title": "Ready for Flawless Lashes?",
-      "subtitle": "Treat yourself to a lash lift and wake up every day with perfectly curled, beautiful lashes. Book your appointment with Jenni today!",
-      "button": "Schedule Your Appointment"
-    }
+  "services_page": {
+    "subtitle": "Our Services",
+    "title": "Prices & Services",
+    "description": "Discover our complete menu of beauty services, each designed to enhance your natural beauty.",
+    "categories": [
+      {
+        "name": "Cut & Styling",
+        "icon": "scissors",
+        "services": [
+          { "name": "Blow-dry", "price": "€20 - €25", "duration": "30 min" },
+          {
+            "name": "Cut + Shampoo + Blow-dry",
+            "price": "€35 - €45",
+            "duration": "60 min"
+          },
+          { "name": "Shampoo + Cut", "price": "€35", "duration": "45 min" },
+          {
+            "name": "Shampoo + Blow-dry",
+            "price": "€25",
+            "duration": "30 min"
+          },
+          {
+            "name": "Children's Cut",
+            "price": "€20 - €25",
+            "duration": "20 min"
+          },
+          { "name": "Mask", "price": "€10", "duration": "15 min" }
+        ]
+      },
+      {
+        "name": "Colour",
+        "icon": "palette",
+        "services": [
+          { "name": "Root Colour", "price": "€60", "duration": "60 min" },
+          {
+            "name": "Full Colour",
+            "price": "€60 - €100",
+            "duration": "90 min"
+          },
+          {
+            "name": "Highlights",
+            "price": "€70 - €200",
+            "duration": "120 min"
+          },
+          { "name": "Balayage", "price": "€60 - €300", "duration": "120 min" },
+          { "name": "Colour + Blow-dry", "price": "€50", "duration": "60 min" },
+          { "name": "Perm", "price": "€60 - €250", "duration": "150 min" },
+          { "name": "Ombré — From", "price": "€130", "duration": "120 min" }
+        ]
+      },
+      {
+        "name": "Straightening",
+        "icon": "sparkles",
+        "services": [
+          {
+            "name": "Up to Neck",
+            "price": "€100 - €200",
+            "duration": "120 min"
+          },
+          { "name": "Mid-back", "price": "€150", "duration": "150 min" },
+          {
+            "name": "Below Shoulder Blades",
+            "price": "€200",
+            "duration": "180 min"
+          },
+          { "name": "Updo", "price": "€45", "duration": "45 min" },
+          { "name": "Evening Updo", "price": "€35", "duration": "45 min" },
+          { "name": "Bridal Updo", "price": "€100", "duration": "90 min" },
+          { "name": "Hair Extensions", "price": "On request", "duration": "—" }
+        ]
+      },
+      {
+        "name": "Hair Removal",
+        "icon": "zap",
+        "services": [
+          { "name": "Face", "price": "€25", "duration": "15 min" },
+          { "name": "Bikini", "price": "€20", "duration": "15 min" },
+          { "name": "Full Legs", "price": "€20", "duration": "40 min" },
+          { "name": "Half Legs", "price": "€15", "duration": "20 min" },
+          { "name": "Underarms", "price": "€10", "duration": "10 min" },
+          { "name": "Half Arms", "price": "€15", "duration": "15 min" },
+          { "name": "Full Body", "price": "€50 - €60", "duration": "60 min" }
+        ]
+      },
+      {
+        "name": "Facial Treatments",
+        "icon": "sparkles",
+        "services": [
+          { "name": "Deep Cleansing", "price": "€50", "duration": "60 min" },
+          { "name": "Peeling", "price": "€90", "duration": "60 min" },
+          {
+            "name": "Youth Glow Treatment",
+            "price": "€80",
+            "duration": "75 min"
+          }
+        ]
+      },
+      {
+        "name": "Makeup",
+        "icon": "palette",
+        "services": [
+          { "name": "Day Makeup", "price": "€25 - €45", "duration": "30 min" },
+          {
+            "name": "Evening Makeup",
+            "price": "€35 - €65",
+            "duration": "45 min"
+          }
+        ]
+      },
+      {
+        "name": "Lashes & Brows",
+        "icon": "sparkles",
+        "services": [
+          { "name": "Lash Lift", "price": "€40", "duration": "45 min" },
+          {
+            "name": "Brow Lamination + Tint",
+            "price": "€50",
+            "duration": "45 min"
+          },
+          { "name": "Brow Tint", "price": "€10", "duration": "15 min" },
+          { "name": "Brow Wax", "price": "€10", "duration": "10 min" },
+          { "name": "Lash Lamination", "price": "€40", "duration": "45 min" },
+          {
+            "name": "Lash Lamination + Tint",
+            "price": "€60",
+            "duration": "60 min"
+          },
+          {
+            "name": "Lash Extensions (set)",
+            "price": "€60",
+            "duration": "60 min"
+          },
+          {
+            "name": "Individual Lash Extensions",
+            "price": "€80",
+            "duration": "90 min"
+          }
+        ]
+      }
+    ]
   },
   "bookingPage": {
     "title": {
@@ -259,25 +344,13 @@
     "markPendingButton": "Mark as Pending"
   },
   "footer": {
-    "tagline": "Enhancing your natural beauty, one lash at a time. Located in Antwerp.",
-    "quickLinks": "Quick Links",
-    "contactUs": "Contact Jenni",
-    "address": {
-      "line1": "Your Street Name 123",
-      "line2": "2000 Antwerp, Belgium"
-    },
-    "phoneDisplay": "+32 4XX XX XX XX",
-    "phoneLink": "+32400000000",
-    "email": "hello@lashliftbyjenni.be",
-    "openingHours": {
-      "title": "Working Hours",
-      "days": "Mon - Fri",
-      "time": "10:00 - 18:00",
-      "weekend": "Sat - Sun",
-      "weekend_status": "By Appointment Only"
-    },
-    "rightsReserved": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
+      "description": "Your exceptional beauty destination. Hair, care, wellness — we enhance your natural beauty.",
+      "quick_links": "Quick Links",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "terms": "Terms & Conditions",
+      "follow": "Follow Us",
+      "rights": "All rights reserved."
   }
 }

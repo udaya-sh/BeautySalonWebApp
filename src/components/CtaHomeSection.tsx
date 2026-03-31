@@ -1,40 +1,38 @@
+"use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Button } from '@/components/ui/button';
-import { CalendarCheck, Sparkles } from 'lucide-react';
-import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import { useTranslations } from "next-intl";
 
-const CtaHomeSection = () => {
-  const t  = useTranslations();
+export default function CTASection() {
+  const t = useTranslations("ctaHome");
 
   return (
-    <section className="py-16 md:py-24 "> {/* Very subtle gradient */}
-      <div className="container mx-auto px-4 md:px-6 text-center bg-gradient-to-br from-primary/5 via-secondary/50 to-primary/5 text-primary rounded-2xl py-5">
+    <section className="py-24 md:py-32 bg-primary text-primary-foreground">
+      <div className="max-w-7xl mx-auto px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.7, ease: "easeOut" }}
         >
-          <Sparkles className="h-12 w-12 text-primary mx-auto mb-4 animate-subtle-pulse" />
-          <h2 className="text-3xl md:text-4xl font-bold font-serif mb-6 text-text-headings">
-            {t('ctaHome.title')}
+          <h2 className="font-heading text-4xl md:text-6xl font-light mb-5">
+            {t("title")}
           </h2>
-          <p className="text-lg text-text-secondary max-w-xl mx-auto mb-10">
-            {t('ctaHome.subtitle')}
+
+          <p className="text-primary-foreground/60 text-sm md:text-base max-w-md mx-auto mb-10">
+            {t("description")}
           </p>
-          <Link href="/booking">
-            <Button variant="default" size="lg" className="group"> {/* Default (primary) button */}
-              {t('ctaHome.buttonText')}
-              <CalendarCheck className="ml-2 h-5 w-5 transition-transform duration-300 group-hover:scale-110" />
-            </Button>
+
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-10 py-4 rounded-full text-sm font-medium hover:brightness-110 transition-all"
+          >
+            {t("buttonText")}
+            <ArrowRight className="w-4 h-4" />
           </Link>
         </motion.div>
       </div>
     </section>
   );
-};
-
-export default CtaHomeSection;
+}

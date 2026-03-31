@@ -10,7 +10,7 @@ const HERO_IMG =
   "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a29e1e2b1_generated_a38eb86b.png";
 
 const LOGO =
-  "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a84000197_generated_image.png";
+  "/logo.png";
 
 export default function Hero({ tt }: any) {
   const t = useTranslations("hero");

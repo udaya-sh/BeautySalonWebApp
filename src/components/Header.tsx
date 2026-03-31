@@ -17,7 +17,7 @@ import {
 import { Button } from "./ui/button";
 
 const LOGO =
-  "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a84000197_generated_image.png";
+  "/logo.png";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -70,12 +70,12 @@ export default function Navbar() {
           <Image
             src={LOGO}
             alt="Maison de Beauté logo"
-            width={40}
-            height={40}
+            width={200}
+            height={100}
             priority
           />
           <span className="font-heading text-xl md:text-2xl font-semibold tracking-tight">
-            Maison de <span className="text-accent">Beauté</span>
+            {/* Maison de <span className="text-accent">Beauté</span> */}
           </span>
         </Link>
 

@@ -44,20 +44,9 @@
     "ctaViewGallery": "Voir la Galerie Complète"
   },
   "servicesOverview": {
-    "title": {
-      "main": "Nos Soins",
-      "highlight": "Signature"
-    },
-    "subtitle": "Choisissez l'expérience de rehaussement de cils parfaite, adaptée à vos désirs.",
-    "withTint": {
-      "title": "Lash Lift avec Teinture",
-      "description": "Obtenez des cils magnifiquement rehaussés avec une touche de couleur ajoutée pour plus de définition et de profondeur. Réveillez-vous prête !"
-    },
-    "withoutTint": {
-      "title": "Lash Lift (Sans Teinture)",
-      "description": "Profitez de cils parfaitement courbés qui rehaussent votre beauté naturelle, donnant à vos yeux un regard plus ouvert et éveillé."
-    },
-    "learnMore": "Learn More"
+    "subtitle": "Nos Expertises",
+    "title": "Des Services d'Exception",
+    "description": "De la coiffure aux soins complets, nous offrons une gamme complète de services beauté réalisés par des experts passionnés."
   },
   "whyLashLifting": {
     "title": {
