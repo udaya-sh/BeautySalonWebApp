@@ -17,8 +17,8 @@
   },
   "hero": {
     "subtitle": "Ladies Hair Salon & Beauty",
-    "title": "The Art of Beauty,\nReimagined",
-    "description": "Discover an exceptional beauty experience in our salon. Hair styling, facials, manicures and more — every visit is a moment of luxury.",
+    "title": "Art of Beauty, Reimagined",
+    "description": "Discover an exceptional beauty experience in our salon. Hair styling, facials, manicures and more. Every visit is a moment of luxury.",
     "cta": "Book Now",
     "discover": "Discover Our Services"
   },
@@ -56,31 +56,54 @@
       "nails": "Manicure, pedicure and nail art"
     }
   },
-  "whyLashLifting": {
-    "title": {
-      "main": "Why Choose",
-      "highlight": "Lash Lifting?"
-    },
-    "subtitle": "Experience the numerous benefits of a professional lash lift at LashLift by Jenni.",
-    "imageAlt": "Close-up of perfectly lifted natural lashes",
-    "benefits": {
-      "naturalLook": {
-        "title": "Stunning Natural Look",
-        "description": "Enhances your own lashes for a beautiful, natural curl without extensions."
+  "why_us": {
+    "subtitle": "Why Choose Us",
+    "title": "The Essence of Maison de Beauté",
+    "description": "We believe everyone deserves a unique, personalised and caring beauty experience. Here's what sets us apart.",
+    "reasons": [
+      {
+        "title": "Expertise",
+        "desc": "Our experts are trained in the latest techniques and continuously perfect their craft."
       },
-      "longLasting": {
-        "title": "Long-Lasting Results",
-        "description": "Enjoy your gorgeous lifted lashes for 6-8 weeks with proper care."
+      {
+        "title": "Personalised Care",
+        "desc": "Every consultation is tailored to your features, desires and unique lifestyle."
       },
-      "lowMaintenance": {
-        "title": "Low Maintenance",
-        "description": "Wake up with perfect lashes every day. No mascara needed (unless you want extra drama!)."
+      {
+        "title": "Premium Products",
+        "desc": "We rigorously select high-end, safe and effective products for your skin."
       },
-      "safeGentle": {
-        "title": "Safe & Gentle",
-        "description": "Our techniques and products are chosen for their safety and gentleness on your natural lashes."
+      {
+        "title": "Natural Approach",
+        "desc": "We favour treatments that respect your skin and the environment without compromising results."
       }
-    }
+    ]
+  },
+  "way_of_working": {
+    "subtitle": "Our Method",
+    "title": "How We Work",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Consultation",
+        "desc": "We start with an in-depth consultation to understand your expectations, style and the condition of your skin or hair."
+      },
+      {
+        "number": "02",
+        "title": "Advice",
+        "desc": "Our experts analyse your needs and propose a bespoke programme with the most suitable techniques and products."
+      },
+      {
+        "number": "03",
+        "title": "Treatment & Care",
+        "desc": "We carry out your treatment with precision and passion, using technical gestures and carefully selected products."
+      },
+      {
+        "number": "04",
+        "title": "Follow up",
+        "desc": "We support you long term with maintenance advice and personalised recommendations to enhance your everyday beauty."
+      }
+    ]
   },
   "ctaHome": {
     "title": "Ready to Shine?",
@@ -310,6 +333,44 @@
       "successDescription": "Jenni will be in touch soon to confirm."
     }
   },
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Get In Touch",
+    "description": "We would love to hear from you. Send us a message and we will respond as soon as possible.",
+
+    "services": [
+      "Women's Hair",
+      "Men's Hair",
+      "Facial Treatments",
+      "Nails",
+      "Hair Removal",
+      "Makeup",
+      "Other"
+    ],
+
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "service": "Service",
+      "select_service": "Select a service",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully."
+    },
+
+    "info": {
+      "address_label": "Address",
+      "address": "Your salon address",
+      "phone_label": "Phone",
+      "phone": "+32 XXX XX XX XX",
+      "email_label": "Email",
+      "email": "contact@salon.com",
+      "hours_label": "Opening Hours",
+      "hours": "Mon - Sat\n09:00 - 18:00"
+    }
+  },
   "adminLogin": {
     "title": "Admin Access",
     "subtitle": "Please enter your password to manage bookings.",
@@ -344,7 +405,7 @@
     "markPendingButton": "Mark as Pending"
   },
   "footer": {
-      "description": "Your exceptional beauty destination. Hair, care, wellness — we enhance your natural beauty.",
+      "description": "Your exceptional beauty destination for hair, care, wellness and more. We enhance your natural beauty.",
       "quick_links": "Quick Links",
       "legal": "Legal",
       "privacy": "Privacy Policy",
@@ -352,5 +413,106 @@
       "terms": "Terms & Conditions",
       "follow": "Follow Us",
       "rights": "All rights reserved."
+  },
+ "privacy": {
+    "title": "Privacy Policy",
+    "last_updated": "Last updated",
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Data Collection",
+        "content": "We collect information you provide directly, such as your name, email address, phone number and service preferences when booking or contacting us."
+      },
+      {
+        "title": "2. Use of Data",
+        "content": "Your personal data is used to manage appointments, contact you about our services, improve our website, send marketing communications (with consent), and comply with legal obligations."
+      },
+      {
+        "title": "3. Legal Basis",
+        "content": "We process your data based on your consent, contract performance, our legitimate interests, and compliance with legal obligations."
+      },
+      {
+        "title": "4. Data Sharing",
+        "content": "We never sell your personal data. We may share it with service providers who help us operate our business, always in GDPR compliance."
+      },
+      {
+        "title": "5. Data Retention",
+        "content": "We retain your personal data as long as necessary for the purposes described in this policy, unless a longer period is required by law."
+      },
+      {
+        "title": "6. Your Rights",
+        "content": "Under GDPR you have the right to access, rectify, erase, restrict processing, data portability, and object. Contact us at contact@beaute-divine.be."
+      },
+      {
+        "title": "7. Security",
+        "content": "We implement appropriate technical and organisational measures to protect your personal data against unauthorised access, alteration, disclosure or destruction."
+      },
+      {
+        "title": "8. Contact",
+        "content": "For questions about this privacy policy contact us at: contact@beaute-divine.be or 123 Avenue de la Beauté, 1000 Brussels, Belgium."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "last_updated": "Last updated",
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. What is a Cookie?",
+        "content": "A cookie is a small text file stored on your device when you visit a website. Cookies help us run the site, keep it secure, and improve your experience."
+      },
+      {
+        "title": "2. Types of Cookies",
+        "content": "Essential cookies are required for the site to function. Analytical cookies help us understand how visitors use our website. Preference cookies remember settings such as language. Marketing cookies may be used to display relevant advertisements."
+      },
+      {
+        "title": "3. Managing Cookies",
+        "content": "You can manage your cookie preferences through your browser settings. Please note that blocking some cookies may affect your experience on our website."
+      },
+      {
+        "title": "4. Third-Party Cookies",
+        "content": "Some cookies may be placed by third-party services that appear on our pages. We do not control these cookies and recommend consulting their respective privacy policies."
+      },
+      {
+        "title": "5. Changes",
+        "content": "We may update this cookie policy from time to time. Significant changes will be communicated through our website."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "last_updated": "Last updated",
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Purpose",
+        "content": "These terms govern the use of our website and beauty services. By using our services, you accept these terms."
+      },
+      {
+        "title": "2. Services",
+        "content": "We offer hair, facial, nail, waxing, makeup and other beauty services. Descriptions and prices are indicative and may change without notice."
+      },
+      {
+        "title": "3. Appointments",
+        "content": "Appointments can be made by phone, email or via our online form. Cancellations must be made at least 24 hours in advance. Late cancellations or no-shows may incur a fee."
+      },
+      {
+        "title": "4. Prices & Payment",
+        "content": "Prices are in euros and include VAT. Payment is due at the end of each service. We accept cash, bank cards and transfers."
+      },
+      {
+        "title": "5. Liability",
+        "content": "We do our best to provide quality services. Please inform us of any known allergies before the treatment begins."
+      },
+      {
+        "title": "6. Intellectual Property",
+        "content": "All content on this site (texts, images, logos) is protected by copyright and may not be reproduced without our written permission."
+      },
+      {
+        "title": "7. Applicable Law",
+        "content": "These terms are governed by Belgian law. Any dispute will be submitted to the competent courts of Brussels."
+      }
+    ]
   }
 }

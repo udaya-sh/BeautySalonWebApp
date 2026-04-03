@@ -59,7 +59,7 @@ export default function Hero({ tt }: any) {
           </div>
 
           {/* SEO IMPORTANT: Only ONE h1 */}
-          <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-light text-white leading-[1.05] mb-6 whitespace-pre-line">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white leading-[1.05] mb-6 whitespace-pre-line">
             {t("title")}
           </h1>
 

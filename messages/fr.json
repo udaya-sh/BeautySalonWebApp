@@ -1,274 +1,117 @@
 {
   "common": {
-    "learnMore": "En Savoir Plus",
+    "learnMore": "En savoir plus",
     "bookNow": "Réserver",
     "submit": "Envoyer",
     "loading": "Chargement...",
-    "locale": "fr-BE"
+    "locale": "fr-FR"
   },
   "nav": {
     "home": "Accueil",
-    "about": "À Propos de Jenni",
-    "services": "Services",
+    "about": "À propos",
+    "services": "Services & Prix",
     "booking": "Réservation",
     "bookNow": "Réserver",
-    "toggleMenu": "Basculer le menu"
+    "toggleMenu": "Ouvrir le menu",
+    "contact": "Contact"
   },
   "hero": {
-    "imageAlt": "Cils magnifiquement rehaussés sur une femme sereine",
-    "title": {
-      "main": "Sublimez Votre Beauté Naturelle",
-      "highlight": "Avec LashLift"
-    },
-    "subtitle": "Découvrez la magie des cils parfaitement rehaussés. Durables, naturels et élégants sans effort. Situé au cœur d'Anvers.",
-    "ctaBook": "Prenez Votre Rendez-vous",
-    "ctaServices": "Découvrir les Services"
-  },
-  "beforeAfter": {
-    "title": {
-      "main": "Voyez la",
-      "highlight": "Transformation"
-    },
-    "subtitle": "Nos rehaussements de cils offrent une amélioration spectaculaire mais naturelle. Constatez la différence !",
-    "beforeLabel": "Avant",
-    "afterLabel": "Après",
-    "image1": {
-      "beforeAlt": "Cils droits avant rehaussement",
-      "afterAlt": "Cils rehaussés après traitement"
-    },
-    "image2": {
-      "beforeAlt": "Cils naturels avant amélioration",
-      "afterAlt": "Cils définis après rehaussement"
-    },
-    "imageCaption": "Exemple",
-    "ctaViewGallery": "Voir la Galerie Complète"
+    "subtitle": "Salon de coiffure & beauté pour femmes",
+    "title": "L’Art de la Beauté Réinventé",
+    "description": "Découvrez une expérience beauté exceptionnelle dans notre salon. Coiffure, soins du visage, manucure et bien plus. Chaque visite est un moment de luxe.",
+    "cta": "Réserver",
+    "discover": "Découvrir nos services"
   },
   "servicesOverview": {
-    "subtitle": "Nos Expertises",
-    "title": "Des Services d'Exception",
-    "description": "De la coiffure aux soins complets, nous offrons une gamme complète de services beauté réalisés par des experts passionnés."
-  },
-  "whyLashLifting": {
-    "title": {
-      "main": "Pourquoi Choisir",
-      "highlight": "le Lash Lifting ?"
+    "subtitle": "Notre Expertise",
+    "title": "Services d’Exception",
+    "description": "De la coiffure aux soins complets, nous proposons une large gamme de services réalisés par des experts passionnés.",
+    "serviceNames": {
+      "hair": "Coiffure",
+      "skin": "Soins du visage",
+      "nails": "Soins des ongles"
     },
-    "subtitle": "Découvrez les nombreux avantages d'un rehaussement de cils professionnel chez LashLift by Jenni.",
-    "imageAlt": "Gros plan de cils naturels parfaitement rehaussés",
-    "benefits": {
-      "naturalLook": {
-        "title": "Look Naturel Époustouflant",
-        "description": "Améliore vos propres cils pour une belle courbure naturelle sans extensions."
-      },
-      "longLasting": {
-        "title": "Résultats Durables",
-        "description": "Profitez de vos magnifiques cils rehaussés pendant 6 à 8 semaines avec des soins appropriés."
-      },
-      "lowMaintenance": {
-        "title": "Peu d'Entretien",
-        "description": "Réveillez-vous chaque jour avec des cils parfaits. Pas besoin de mascara (sauf si vous voulez plus de drame !)."
-      },
-      "safeGentle": {
-        "title": "Sûr & Doux",
-        "description": "Nos techniques et produits sont choisis pour leur sécurité et leur douceur sur vos cils naturels."
-      }
+    "serviceDesc": {
+      "hair": "Coupes, couleurs et coiffures événementielles",
+      "skin": "Soins anti-âge, hydratants et éclat",
+      "nails": "Manucure, pédicure et nail art"
     }
+  },
+  "why_us": {
+    "subtitle": "Pourquoi Nous Choisir",
+    "title": "L’Essence de Maison de Beauté",
+    "description": "Nous pensons que chacun mérite une expérience beauté unique et personnalisée.",
+    "reasons": [
+      {
+        "title": "Expertise",
+        "desc": "Nos experts sont formés aux techniques les plus récentes."
+      },
+      {
+        "title": "Soins Personnalisés",
+        "desc": "Chaque consultation est adaptée à vos besoins."
+      },
+      {
+        "title": "Produits Premium",
+        "desc": "Nous sélectionnons uniquement des produits haut de gamme."
+      },
+      {
+        "title": "Approche Naturelle",
+        "desc": "Nous privilégions des soins respectueux de votre peau."
+      }
+    ]
   },
   "ctaHome": {
-    "title": "Prête pour la Transformation de Vos Cils ?",
-    "subtitle": "Prenez rendez-vous dès aujourd'hui et laissez Jenni opérer sa magie sur vos cils. Découvrez la confiance des yeux naturellement beaux !",
-    "buttonText": "Planifiez Votre Visite"
+    "title": "Prêt(e) à Briller ?",
+    "description": "Prenez rendez-vous dès aujourd’hui et révélez votre beauté naturelle.",
+    "buttonText": "Prendre Rendez-vous"
   },
-  "aboutPage": {
-    "title": {
-      "main": "Rencontrez Jenni,",
-      "highlight": "Votre Artiste Ciliaire"
-    },
-    "subtitle": "Passionnée par la sublimation de la beauté naturelle, un rehaussement de cils à la fois.",
-    "ownerImageAlt": "Portrait de Jenni, l'artiste ciliaire",
-    "story": {
-      "title": "Mon Parcours dans l'Art Ciliaire",
-      "paragraph1": "Bonjour ! Je suis Jenni, le cœur et les mains derrière LashLift by Jenni. Ma passion pour la beauté et mon attention méticuleuse aux détails m'ont conduite à l'art du rehaussement de cils. Je crois que la vraie beauté rayonne de l'intérieur, et mon objectif est de sublimer vos traits naturels, pour que vous vous sentiez confiante et radieuse.",
-      "paragraph2": "Basée dans la ville vibrante d'Anvers, je me suis consacrée à la maîtrise des techniques qui offrent des résultats époustouflants et naturels. Chaque traitement est effectué avec le plus grand soin, précision et une touche personnelle.",
-      "paragraph3": "J'adore échanger avec mes clientes, comprendre leurs désirs et voir leur joie lorsqu'elles découvrent leurs cils transformés. C'est plus qu'un simple traitement ; c'est une expérience de soin de soi et de sublimation."
-    },
-    "mission": {
-      "title": "Notre Mission",
-      "statement": "Sublimer la beauté naturelle avec soin et précision, offrir une expérience relaxante et inspirante qui vous laisse confiante et belle."
-    },
-    "values": {
-      "title": "Mes Convictions",
-      "care": {
-        "title": "Soin Personnalisé",
-        "description": "Chaque cliente est unique. Je prends le temps de comprendre vos besoins et d'adapter le service pour les meilleurs résultats."
-      },
-      "precision": {
-        "title": "Précision Méticuleuse",
-        "description": "Le rehaussement de cils est un art. Je me concentre sur chaque détail pour assurer un rehaussement impeccable et magnifique à chaque fois."
-      },
-      "passion": {
-        "title": "Passion Authentique",
-        "description": "J'aime vraiment ce que je fais, et cette passion se reflète dans la qualité de mon travail et l'expérience client."
-      }
-    },
-    "studio": {
-      "title": "Mon Studio Cosy",
-      "image1Alt": "Intérieur du studio LashLift by Jenni",
-      "image2Alt": "Outils et produits de rehaussement de cils",
-      "caption": "Un espace calme et accueillant conçu pour votre confort et votre détente."
-    }
-  },
-  "servicesPage": {
-    "mainTitle": {
-      "main": "Nos Services de",
-      "highlight": "Rehaussement de Cils"
-    },
-    "mainSubtitle": "Offrez-vous nos soins spécialisés de rehaussement de cils conçus pour vous donner des cils naturellement beaux.",
-    "common": {
-      "durationLabel": "Durée",
-      "benefitsTitle": "Avantages Clés",
-      "galleryTitle": "Galerie de Résultats",
-      "bookButton": "Réserver ce Service"
-    },
-    "withTint": {
-      "title": "Lash Lift avec Teinture",
-      "description": "La transformation ultime des cils ! Ce service rehausse vos cils naturels dès la racine, créant l'illusion de longueur et de volume, puis ajoute une teinture personnalisée pour foncer vos cils. Parfait pour celles qui veulent un effet mascara sans le tracas quotidien.",
-      "duration": "Environ 1h 45min - 2h",
-      "benefits": [
-        "Les cils paraissent plus longs, plus fournis et plus foncés",
-        "Les yeux semblent plus ouverts et définis",
-        "Pas besoin de mascara",
-        "Résultats waterproof et anti-bavures"
-      ],
-      "image1Alt": "Avant et après rehaussement de cils avec teinture - exemple 1",
-      "image1Desc": "Cils avant sont droits, après sont rehaussés et teintés foncés.",
-      "image2Alt": "Avant et après rehaussement de cils avec teinture - exemple 2",
-      "image2Desc": "Autre exemple de cils transformés avec rehaussement et teinture."
-    },
-    "withoutTint": {
-      "title": "Lash Lift (Sans Teinture)",
-      "description": "Ce service rehausse et courbe magnifiquement vos cils naturels dès la racine, leur donnant une apparence plus longue et plus fournie. Idéal pour celles qui ont des cils naturellement foncés ou préfèrent une amélioration plus subtile sans couleur ajoutée.",
-      "duration": "Environ 1h 30min - 1h 45min",
-      "benefits": [
-        "Améliore la courbure et le rehaussement naturels des cils",
-        "Fait paraître les yeux plus grands et plus éveillés",
-        "Parfait pour un look 'vos cils en mieux'",
-        "Idéal pour les personnes sensibles aux teintures"
-      ],
-      "image1Alt": "Avant et après rehaussement de cils sans teinture - exemple 1",
-      "image1Desc": "Cils avant sont moins courbés, après sont parfaitement rehaussés.",
-      "image2Alt": "Avant et après rehaussement de cils sans teinture - exemple 2",
-      "image2Desc": "Rehaussement subtil mais percutant sans teinture."
-    },
-    "cta": {
-      "title": "Prête pour des Cils Impeccables ?",
-      "subtitle": "Offrez-vous un rehaussement de cils et réveillez-vous chaque jour avec des cils parfaitement courbés et magnifiques. Prenez rendez-vous avec Jenni dès aujourd'hui !",
-      "button": "Planifiez Votre Rendez-vous"
-    }
-  },
-  "bookingPage": {
-    "title": {
-      "main": "Réservez Votre",
-      "highlight": "Rendez-vous"
-    },
-    "subtitle": "Je suis impatiente de vous accueillir ! Veuillez remplir le formulaire ci-dessous pour demander votre date et heure préférées. Je vous recontacterai rapidement pour confirmer.",
-    "formIntro": "Les champs marqués d'un * sont obligatoires. Pour les demandes urgentes, veuillez appeler.",
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Contactez-nous",
+    "description": "Nous serions ravis d’avoir de vos nouvelles. Envoyez-nous un message.",
+
     "form": {
-      "name": {
-        "label": "Nom Complet *",
-        "placeholder": "Votre Nom"
-      },
-      "email": {
-        "label": "Adresse E-mail *",
-        "placeholder": "vous@exemple.com"
-      },
-      "phone": {
-        "label": "Numéro de Téléphone (Optionnel)",
-        "placeholder": "ex: +32 4XX XX XX XX"
-      },
-      "service": {
-        "label": "Choisissez Votre Service *",
-        "options": {
-          "withTint": "Lash Lift avec Teinture",
-          "withoutTint": "Lash Lift (Sans Teinture)"
-        }
-      },
-      "date": {
-        "label": "Date Préférée *"
-      },
-      "time": {
-        "label": "Heure Préférée *"
-      },
-      "message": {
-        "label": "Notes Supplémentaires (Optionnel)",
-        "placeholder": "Des questions ou demandes spéciales ?"
-      },
-      "submitButton": "Demander un Rendez-vous",
-      "submittingButton": "Envoi de la Demande...",
-      "note": "Veuillez noter qu'il s'agit d'une demande. Votre rendez-vous est confirmé une fois que vous recevez un message de confirmation de ma part."
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "service": "Service",
+      "select_service": "Choisir un service",
+      "message": "Message",
+      "send": "Envoyer",
+      "sending": "Envoi...",
+      "success": "Votre message a été envoyé avec succès."
     },
-    "confirmation": {
-      "title": "Demande Envoyée !",
-      "message": "Merci pour votre demande de réservation ! Jenni vous contactera bientôt pour confirmer les détails de votre rendez-vous. Vérifiez vos e-mails (et votre dossier spam) !"
-    },
-    "toast": {
-      "successTitle": "Demande de Réservation Envoyée !",
-      "successDescription": "Jenni vous contactera bientôt pour confirmer."
+
+    "info": {
+      "address_label": "Adresse",
+      "phone_label": "Téléphone",
+      "email_label": "Email",
+      "hours_label": "Heures d'ouverture"
     }
-  },
-  "adminLogin": {
-    "title": "Accès Admin",
-    "subtitle": "Veuillez entrer votre mot de passe pour gérer les réservations.",
-    "passwordLabel": "Mot de passe",
-    "loginButton": "Connexion",
-    "loggingInButton": "Connexion...",
-    "toast": {
-      "successTitle": "Connexion Réussie",
-      "successDescription": "Redirection vers le tableau de bord...",
-      "errorTitle": "Échec de la Connexion",
-      "errorDescription": "Mot de passe incorrect. Veuillez réessayer."
-    }
-  },
-  "adminDashboard": {
-    "title": "Tableau de Bord Admin",
-    "logoutButton": "Déconnexion",
-    "logoutSuccessTitle": "Déconnecté",
-    "logoutSuccessDescription": "Vous avez été déconnecté avec succès.",
-    "manageSlotsTitle": "Gérer les Créneaux Horaires Disponibles",
-    "manageSlotsDescription": "Ajoutez, supprimez ou bloquez des dates pour les réservations. (Cette fonctionnalité nécessite une intégration backend)",
-    "addSlotsButton": "Configurer les Créneaux",
-    "featureComingSoon": "Fonctionnalité complète bientôt disponible avec l'intégration backend.",
-    "bookingsTitle": "Réservations des Clients",
-    "noBookings": "Aucune demande de réservation pour le moment.",
-    "submittedOn": "Soumis le",
-    "emailLabel": "E-mail",
-    "phoneLabel": "Téléphone",
-    "serviceLabel": "Service",
-    "messageLabel": "Message",
-    "deleteButton": "Supprimer",
-    "markDoneButton": "Marquer comme Terminé",
-    "markPendingButton": "Marquer comme En Attente"
   },
   "footer": {
-    "tagline": "Sublimez votre beauté naturelle, un cil à la fois. Situé à Anvers.",
-    "quickLinks": "Liens Rapides",
-    "contactUs": "Contacter Jenni",
-    "address": {
-      "line1": "Votre Nom de Rue 123",
-      "line2": "2000 Anvers, Belgique"
-    },
-    "phoneDisplay": "+32 4XX XX XX XX",
-    "phoneLink": "+32400000000",
-    "email": "lashliftbyjenni@outlook.com",
-    "openingHours": {
-      "title": "Heures d'Ouverture",
-      "days": "Lun - Ven",
-      "time": "10:00 - 18:00",
-      "weekend": "Sam - Dim",
-      "weekend_status": "Sur Rendez-vous Uniquement"
-    },
-    "rightsReserved": "Tous droits réservés.",
-    "privacy": "Politique de Confidentialité",
-    "terms": "Conditions d'Utilisation"
+    "description": "Votre destination beauté exceptionnelle pour les cheveux, les soins et le bien-être.",
+    "quick_links": "Liens rapides",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique des cookies",
+    "terms": "Conditions générales",
+    "follow": "Suivez-nous",
+    "rights": "Tous droits réservés."
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "last_updated": "Dernière mise à jour",
+    "last_updated_date": "01/04/2026"
+  },
+  "cookies": {
+    "title": "Politique de Cookies",
+    "last_updated": "Dernière mise à jour",
+    "last_updated_date": "01/04/2026"
+  },
+  "terms": {
+    "title": "Conditions Générales",
+    "last_updated": "Dernière mise à jour",
+    "last_updated_date": "01/04/2026"
   }
 }

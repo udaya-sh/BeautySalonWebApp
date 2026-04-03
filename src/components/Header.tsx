@@ -16,8 +16,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 
-const LOGO =
-  "/logo.png";
+const LOGO = "/logo.png";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -34,7 +33,7 @@ export default function Navbar() {
     { href: "/about", label: t("nav.about") },
     { href: "/services", label: t("nav.services") },
     { href: "/contact", label: t("nav.contact") },
-    { href: "/booking", label: t("nav.booking") },
+    // { href: "/booking", label: t("nav.booking") },
   ];
 
   const languages = [
@@ -54,6 +53,9 @@ export default function Navbar() {
   };
 
   const isActive = (path: string) => {
+    if (path === "/") {
+      return pathname === "/" || pathname === `/${currentLang}`;
+    }
     return pathname === `/${currentLang}${path}` || pathname === path;
   };
 
@@ -116,10 +118,7 @@ export default function Navbar() {
                   ${languageButtonClass}`}
                 >
                   <Globe size={16} className="mr-2" /> {currentLangDetails.flag}{" "}
-                  <span className="hidden lg:inline ml-1">
-                    {currentLangDetails.name}
-                  </span>
-                  <ChevronDown size={16} className="ml-1" />
+                  <ChevronDown size={16} className="" />
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent

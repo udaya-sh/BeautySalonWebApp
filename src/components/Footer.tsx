@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Instagram, Facebook } from "lucide-react";
 import { useTranslations } from "next-intl";
@@ -17,26 +18,30 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="max-w-7xl mx-auto px-6 py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-8">
+
+        {/* Footer Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-12">
 
           {/* Brand */}
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <img
-                src="https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a84000197_generated_image.png"
-                alt="Logo"
-                className="w-12 h-12 object-contain border-0"
+          <div className="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
+            <Link href="/" className="flex items-center  mb-4">
+              <Image
+                src="/logo.png"
+                alt="Maison de Beauté logo"
+                width={0}
+                height={0}
+                priority
               />
               <h3 className="font-heading text-2xl font-semibold">
                 Maison de <span className="text-accent">Beauté</span>
               </h3>
-            </div>
+            </Link>
 
             <p className="text-primary-foreground/70 text-sm leading-relaxed max-w-md">
               {t("description")}
             </p>
 
-            <div className="flex gap-4 mt-6">
+            <div className="flex gap-3 mt-6 justify-center md:justify-start">
               {[
                 { label: "Instagram", icon: <Instagram className="w-4 h-4" /> },
                 { label: "Facebook", icon: <Facebook className="w-4 h-4" /> },
@@ -46,7 +51,7 @@ export default function Footer() {
                   key={label}
                   href="#"
                   aria-label={label}
-                  className="w-10 h-10 rounded-full border border-primary-foreground/20 flex items-center justify-center text-primary-foreground/60 hover:bg-primary-foreground/10 hover:text-primary-foreground transition-all"
+                  className="w-9 h-9 rounded-full border border-primary-foreground/20 flex items-center justify-center text-primary-foreground/60 hover:bg-primary-foreground/10 hover:text-primary-foreground transition-all"
                 >
                   {icon}
                 </a>
@@ -55,24 +60,18 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="font-heading text-lg font-medium mb-4">
-              {t("quick_links")}
-            </h4>
-
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+            <h4 className="font-heading text-lg font-medium mb-4">{t("quick_links")}</h4>
             <div className="space-y-2.5">
               <Link href="/" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {nav("home")}
               </Link>
-
               <Link href="/about" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {nav("about")}
               </Link>
-
               <Link href="/services" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {nav("services")}
               </Link>
-
               <Link href="/contact" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {nav("contact")}
               </Link>
@@ -80,30 +79,26 @@ export default function Footer() {
           </div>
 
           {/* Legal */}
-          <div>
-            <h4 className="font-heading text-lg font-medium mb-4">
-              {t("legal")}
-            </h4>
-
+          <div className="flex flex-col items-center md:items-start text-center md:text-left">
+            <h4 className="font-heading text-lg font-medium mb-4">{t("legal")}</h4>
             <div className="space-y-2.5">
-              <Link href="/privacy" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+              <Link href="/privacy-policy" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {t("privacy")}
               </Link>
-
-              <Link href="/cookies" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+              <Link href="/cookie-policy" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {t("cookies")}
               </Link>
-
-              <Link href="/terms" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+              <Link href="/terms-of-service" className="block text-sm text-primary-foreground/60 hover:text-primary-foreground transition-colors">
                 {t("terms")}
               </Link>
             </div>
           </div>
         </div>
 
+        {/* Bottom Line */}
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
           <p className="text-xs text-primary-foreground/40">
-            © {new Date().getFullYear()} Beauté Divine. {t("rights")}
+            © {new Date().getFullYear()} Maison de Beauté. {t("rights")}
           </p>
         </div>
 

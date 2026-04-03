@@ -1,81 +1,46 @@
 "use client";
-import React from "react";
+
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 
-const CookiePolicyPage = () => {
+export default function Cookies() {
+  const t = useTranslations("cookies");
+  const sections = t.raw("sections");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="pt-32">
-      <div className="container mx-auto py-12 md:py-16 text-primary">
-        <motion.div
-          className="text-center mb-12"
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h1 className="text-4xl md:text-5xl font-bold font-serif text-text-headings mb-4">
-            Cookie Policy
+    <section className="pt-32 pb-20 md:pt-40 md:pb-28">
+      <div className="max-w-3xl mx-auto px-6">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          
+          <h1 className="font-heading text-4xl md:text-5xl font-light mb-3">
+            {t("title")}
           </h1>
-          <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-            This page explains how and why we use cookies on our website.
+
+          <p className="text-muted-foreground text-sm mb-12">
+            {t("last_updated")}: {t("last_updated_date")}
           </p>
+
+          <div className="space-y-8">
+            {sections.map((section: any, i: number) => (
+              <div key={i}>
+                <h2 className="font-heading text-xl font-medium mb-3">
+                  {section.title}
+                </h2>
+
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {section.content}
+                </p>
+              </div>
+            ))}
+          </div>
+
         </motion.div>
-
-        <div className="card-soft bg-background p-6 md:p-8 rounded-2xl shadow-soft-sm space-y-6 text-text-secondary">
-          <section>
-            <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">
-              1. What are cookies?
-            </h2>
-            <p>
-              Cookies are small text files placed on your device to help the
-              site function, remember your preferences, and improve your
-              experience.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">
-              2. How we use cookies
-            </h2>
-            <p>
-              We use cookies to temporarily store your booking data during your
-              session. These cookies are essential for the booking process to
-              function correctly.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">
-              3. Third-party cookies
-            </h2>
-            <p>
-              We do not use third-party cookies for advertising or analytics at
-              this time.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">
-              4. Managing cookies
-            </h2>
-            <p>
-              You can set your browser to block or alert you about cookies, but
-              some parts of the site may not work properly as a result.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">
-              5. Contact
-            </h2>
-            <p>
-              If you have questions about our use of cookies, please contact us
-              at [Your Company Name], [your email address].
-            </p>
-          </section>
-        </div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default CookiePolicyPage;
+}

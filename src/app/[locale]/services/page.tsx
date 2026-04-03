@@ -8,7 +8,7 @@ export default function Services() {
 
 
   return (
-    <div className="pt-32">
+    <div className="">
       <ServicesPage />
     </div>
   );

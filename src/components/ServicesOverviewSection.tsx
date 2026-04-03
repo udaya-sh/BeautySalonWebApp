@@ -40,7 +40,7 @@ export default function ServicesOverviewSection() {
             {t("subtitle")}
           </span>
 
-          <h2 className="font-heading text-4xl md:text-5xl font-light mt-3 mb-4">
+          <h2 className="font-heading text-3xl md:text-4xl font-light mt-3 mb-4">
             {t("title")}
           </h2>
 

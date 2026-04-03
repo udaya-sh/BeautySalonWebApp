@@ -4,6 +4,8 @@ import { useTranslations } from "next-intl";
 import Hero from "@/components/Hero";
 import ServicesOverviewSection from "@/components/ServicesOverviewSection";
 import CtaHomeSection from "@/components/CtaHomeSection";
+import WhyUsSection from "@/components/WhyUsSection";
+import WayOfWorkingSection from "@/components/WayofWorking";
 
 const Home = () => {
   const t = useTranslations(); 
@@ -11,10 +13,11 @@ const Home = () => {
   return (
     <>
       <Hero t ={t} /> 
+      <WhyUsSection />
       <ServicesOverviewSection />
-      {/* <BeforeAfterSection />
-      <WhyLashLiftingSection /> */}
+      <WayOfWorkingSection/>
       <CtaHomeSection />
+
     </>
   );
 };

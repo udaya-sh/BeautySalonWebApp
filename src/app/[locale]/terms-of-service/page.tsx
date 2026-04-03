@@ -1,57 +1,46 @@
 "use client";
-import React from "react";
+
 import { motion } from "framer-motion";
+import { useEffect } from "react";
+import { useTranslations } from "next-intl";
 
-const TermsOfServicePage = () => {
+export default function Terms() {
+  const t = useTranslations("terms");
+  const sections = t.raw("sections");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="container mx-auto py-12 md:py-16 text-primary">
-      <motion.div
-        className="text-center mb-12"
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-      >
-        <h1 className="text-4xl md:text-5xl font-bold font-serif text-text-headings mb-4">
-          Terms of Service
-        </h1>
-        <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-          Please read these terms carefully. By using our service, you agree to them.
-        </p>
-      </motion.div>
+    <section className="pt-32 pb-20 md:pt-40 md:pb-28">
+      <div className="max-w-3xl mx-auto px-6">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          
+          <h1 className="font-heading text-4xl md:text-5xl font-light mb-3">
+            {t("title")}
+          </h1>
 
-      <div className="card-soft bg-background p-6 md:p-8 rounded-2xl shadow-soft-sm space-y-6 text-text-secondary">
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">1. Using our service</h2>
-          <p>You must provide accurate booking information and follow our guidelines. We may cancel bookings for misuse or unavailability.</p>
-        </section>
+          <p className="text-muted-foreground text-sm mb-12">
+            {t("last_updated")}: {t("last_updated_date")}
+          </p>
 
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">2. Cancellations</h2>
-          <p>We may cancel a booking if necessary. We will try to notify you as soon as possible.</p>
-        </section>
+          <div className="space-y-8">
+            {sections.map((section: any, i: number) => (
+              <div key={i}>
+                <h2 className="font-heading text-xl font-medium mb-3">
+                  {section.title}
+                </h2>
 
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">3. Limitation of liability</h2>
-          <p>We are not responsible for indirect damages. Our maximum liability is limited to the amount paid for your booking.</p>
-        </section>
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  {section.content}
+                </p>
+              </div>
+            ))}
+          </div>
 
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">4. Changes</h2>
-          <p>We may update these terms. Continued use means you accept the changes.</p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">5. Governing law</h2>
-          <p>These terms are governed by the laws of [Your Country].</p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-serif font-semibold text-text-headings mb-2">6. Contact</h2>
-          <p>Questions? Contact us at [Your Company Name], [your email address].</p>
-        </section>
+        </motion.div>
       </div>
-    </div>
+    </section>
   );
-};
-
-export default TermsOfServicePage;
+}
