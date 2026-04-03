@@ -32,7 +32,7 @@ const jost = Jost({
 />
 
 export const metadata: Metadata = {
-  title: "Luxury Beauty Salon | Premium Hair & Skin Care",
+  title: "Maison de Beaute| Premium Hair & Skin Care",
   description:
     "Experience luxury beauty treatments. Hair styling, skincare, and premium salon services tailored to you.",
   keywords: [
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "luxury salon",
   ],
   openGraph: {
-    title: "Luxury Beauty Salon",
+    title: "Maison de Beaute",
     description: "Premium beauty services tailored for you.",
     images: [
       {

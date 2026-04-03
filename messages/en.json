@@ -453,7 +453,7 @@
       }
     ]
   },
-  "cookies": {
+    "cookies": {
     "title": "Cookie Policy",
     "last_updated": "Last updated",
     "last_updated_date": "01/04/2026",
@@ -480,6 +480,19 @@
       }
     ]
   },
+"cookieBanner": {
+  "title": "We respect your privacy",
+  "description": "We use cookies to improve your experience. You can customise your preferences below.",
+  "customize": "Customise",
+  "acceptAll": "Accept all",
+  "savePreferences": "Save preferences",
+  "essential": "Essential",
+  "essentialDesc": "Required for the site to work. Cannot be disabled.",
+  "analytics": "Analytics",
+  "analyticsDesc": "Help us understand how you use the site.",
+  "marketing": "Marketing",
+  "marketingDesc": "Used to offer you personalised content."
+},
   "terms": {
     "title": "Terms & Conditions",
     "last_updated": "Last updated",
