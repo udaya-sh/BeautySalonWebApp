@@ -1,35 +1,47 @@
 // EmailTemplate.tsx
 import React from "react";
+import { useTranslations } from "next-intl";
 
 interface EmailTemplateProps {
-  naam: string;
+  name: string;
   email: string;
-  postcode: string;
-  telefoonnummer: string;
-  dakrenovatie: boolean;
-  gevelisolatie: boolean;
-  zonnepaneleninstallatie: boolean;
+  companyName: string;
+  phone: string;
+  selectedService: string;
+  message: string;
 }
 
 export const EmailTemplate: React.FC<EmailTemplateProps> = ({
-  naam,
+  name,
   email,
-  postcode,
-  telefoonnummer,
-  dakrenovatie,
-  gevelisolatie,
-  zonnepaneleninstallatie,
+  companyName,
+  phone,
+  selectedService,
+  message,
 }) => {
+  const t = useTranslations("emailTemplate");
+
   return (
     <div>
-      <h1>Nieuw bericht van het Vertilux contactformulier</h1>
-      <p><strong>Naam:</strong> {naam}</p>
-      <p><strong>Email:</strong> {email}</p>
-      <p><strong>Postcode:</strong> {postcode}</p>
-      <p><strong>Telefoonnummer:</strong> {telefoonnummer}</p>
-      <p><strong>Dakrenovatie:</strong> {dakrenovatie ? "Ja" : "Nee"}</p>
-      <p><strong>Gevelisolatie:</strong> {gevelisolatie ? "Ja" : "Nee"}</p>
-      <p><strong>Zonnepaneleninstallatie:</strong> {zonnepaneleninstallatie ? "Ja" : "Nee"}</p>
+      <h1>{t("title")}</h1>
+      <p>
+        <strong>{t("name")}:</strong> {name}
+      </p>
+      <p>
+        <strong>{t("email")}:</strong> {email}
+      </p>
+      <p>
+        <strong>{t("companyName")}:</strong> {companyName}
+      </p>
+      <p>
+        <strong>{t("phone")}:</strong> {phone}
+      </p>
+      <p>
+        <strong>{t("selectedService")}:</strong> {selectedService}
+      </p>
+      <p>
+        <strong>{t("message")}:</strong> {message}
+      </p>
     </div>
   );
 };

@@ -527,5 +527,14 @@
         "content": "These terms are governed by Belgian law. Any dispute will be submitted to the competent courts of Brussels."
       }
     ]
+  }, 
+   "emailTemplate": {
+    "title": "DevUnity Contact Form",
+    "name": "Name",
+    "email": "Email",
+    "companyName": "Company Name",
+    "phone": "Phone Number",
+    "selectedService": "Selected Service",
+    "message": "Message"
   }
 }
