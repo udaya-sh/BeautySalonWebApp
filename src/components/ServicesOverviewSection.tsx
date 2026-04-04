@@ -7,7 +7,7 @@ import { Scissors, Sparkles, Hand } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 
 const HAIR_IMG =
-  "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a6b327b30_generated_eddc175e.png";
+  "/hair.png";
 
 const BEAUTY_IMG =
   "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/01c7b140e_generated_eb2f185e.png";
