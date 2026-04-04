@@ -7,7 +7,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const HERO_IMG =
-  "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a29e1e2b1_generated_a38eb86b.png";
+  "/heroBackground.png";
 
 const LOGO =
   "/logo.png";
@@ -32,7 +32,7 @@ export default function Hero({ tt }: any) {
         />
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/50" />
       </div>
 
       {/* Content */}
@@ -45,14 +45,6 @@ export default function Hero({ tt }: any) {
         >
           {/* Logo + Subtitle */}
           <div className="flex items-center gap-3 mb-6">
-            <Image
-              src={LOGO}
-              alt="Beauty salon brand logo"
-              width={64}
-              height={64}
-              className="object-contain"
-              loading="lazy"
-            />
             <span className="text-amber-300/90 text-xs uppercase tracking-[0.3em] font-medium">
               {t("subtitle")}
             </span>

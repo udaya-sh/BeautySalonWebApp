@@ -4,72 +4,237 @@
     "bookNow": "Réserver",
     "submit": "Envoyer",
     "loading": "Chargement...",
-    "locale": "fr-FR"
+    "locale": "fr-BE"
   },
   "nav": {
     "home": "Accueil",
     "about": "À propos",
-    "services": "Services & Prix",
+    "services": "Services & Tarifs",
     "booking": "Réservation",
     "bookNow": "Réserver",
-    "toggleMenu": "Ouvrir le menu",
+    "toggleMenu": "Afficher le menu",
     "contact": "Contact"
   },
   "hero": {
     "subtitle": "Salon de coiffure & beauté pour femmes",
-    "title": "L’Art de la Beauté Réinventé",
-    "description": "Découvrez une expérience beauté exceptionnelle dans notre salon. Coiffure, soins du visage, manucure et bien plus. Chaque visite est un moment de luxe.",
+    "title": "L’art de la beauté, réinventé",
+    "description": "Découvrez une expérience beauté exceptionnelle dans notre salon. Coiffure, soins du visage, manucure et bien plus encore. Chaque visite est un moment de luxe.",
     "cta": "Réserver",
     "discover": "Découvrir nos services"
   },
+  "beforeAfter": {
+    "title": {
+      "main": "Découvrez la",
+      "highlight": "Transformation"
+    },
+    "subtitle": "Nos rehaussements de cils offrent un résultat naturel et spectaculaire. Voyez la différence !",
+    "beforeLabel": "Avant",
+    "afterLabel": "Après",
+    "image1": {
+      "beforeAlt": "Cils droits avant rehaussement",
+      "afterAlt": "Cils relevés après traitement"
+    },
+    "image2": {
+      "beforeAlt": "Cils naturels avant soin",
+      "afterAlt": "Cils définis après rehaussement"
+    },
+    "imageCaption": "Exemple",
+    "ctaViewGallery": "Voir la galerie complète"
+  },
+
   "servicesOverview": {
-    "subtitle": "Notre Expertise",
-    "title": "Services d’Exception",
-    "description": "De la coiffure aux soins complets, nous proposons une large gamme de services réalisés par des experts passionnés.",
+    "subtitle": "Notre expertise",
+    "title": "Services exceptionnels",
+    "description": "De la coiffure aux soins complets, nous proposons une gamme complète de services beauté réalisés par des experts passionnés.",
     "serviceNames": {
       "hair": "Coiffure",
       "skin": "Soins du visage",
       "nails": "Soins des ongles"
     },
     "serviceDesc": {
-      "hair": "Coupes, couleurs et coiffures événementielles",
+      "hair": "Coupes, colorations et coiffures événementielles",
       "skin": "Soins anti-âge, hydratants et éclat",
       "nails": "Manucure, pédicure et nail art"
     }
   },
+
   "why_us": {
-    "subtitle": "Pourquoi Nous Choisir",
-    "title": "L’Essence de Maison de Beauté",
+    "subtitle": "Pourquoi nous choisir",
+    "title": "L’essence de Maison de Beauté",
     "description": "Nous pensons que chacun mérite une expérience beauté unique et personnalisée.",
     "reasons": [
       {
         "title": "Expertise",
-        "desc": "Nos experts sont formés aux techniques les plus récentes."
+        "desc": "Nos experts sont formés aux dernières techniques."
       },
       {
-        "title": "Soins Personnalisés",
+        "title": "Soin personnalisé",
         "desc": "Chaque consultation est adaptée à vos besoins."
       },
       {
-        "title": "Produits Premium",
-        "desc": "Nous sélectionnons uniquement des produits haut de gamme."
+        "title": "Produits premium",
+        "desc": "Nous sélectionnons des produits haut de gamme."
       },
       {
-        "title": "Approche Naturelle",
-        "desc": "Nous privilégions des soins respectueux de votre peau."
+        "title": "Approche naturelle",
+        "desc": "Des soins respectueux de votre peau et de l’environnement."
       }
     ]
   },
-  "ctaHome": {
-    "title": "Prêt(e) à Briller ?",
-    "description": "Prenez rendez-vous dès aujourd’hui et révélez votre beauté naturelle.",
-    "buttonText": "Prendre Rendez-vous"
+
+  "way_of_working": {
+    "subtitle": "Notre méthode",
+    "title": "Comment nous travaillons",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Consultation",
+        "desc": "Analyse approfondie de vos besoins."
+      },
+      {
+        "number": "02",
+        "title": "Conseils",
+        "desc": "Proposition d’un programme personnalisé."
+      },
+      {
+        "number": "03",
+        "title": "Soin",
+        "desc": "Traitement réalisé avec précision."
+      },
+      {
+        "number": "04",
+        "title": "Suivi",
+        "desc": "Conseils pour prolonger les résultats."
+      }
+    ]
   },
+
+  "ctaHome": {
+    "title": "Prête à rayonner ?",
+    "description": "Prenez rendez-vous et révélez votre beauté naturelle.",
+    "buttonText": "Réserver un rendez-vous"
+  },
+
+  "aboutPage": {
+    "subtitle": "Notre histoire",
+    "title": "Une passion pour la beauté",
+    "p1": "Fondé avec la vision de créer un espace où luxe et bien-être se rencontrent.",
+    "p2": "Notre équipe utilise les techniques les plus avancées.",
+    "p3": "Chaque visite est une expérience sensorielle unique.",
+    "stats": {
+      "years": "Années d’expérience",
+      "clients": "Clients satisfaits",
+      "experts": "Experts beauté",
+      "products": "Produits premium"
+    },
+    "values_title": "Nos valeurs",
+    "values": [
+      {
+        "title": "Excellence",
+        "desc": "La perfection dans chaque soin."
+      },
+      {
+        "title": "Personnalisation",
+        "desc": "Chaque client est unique."
+      },
+      {
+        "title": "Innovation",
+        "desc": "Nous suivons les dernières tendances."
+      },
+      {
+        "title": "Bien-être",
+        "desc": "Votre confort est notre priorité."
+      }
+    ]
+  },
+
+  "services_page": {
+    "subtitle": "Nos services",
+    "title": "Services & Tarifs",
+    "description": "Découvrez notre menu complet de services beauté.",
+    "categories": [
+      {
+        "name": "Coupe & Coiffage",
+        "icon": "scissors",
+        "services": [
+          { "name": "Brushing", "price": "€20 - €25", "duration": "30 min" },
+          {
+            "name": "Coupe + Brushing",
+            "price": "€35 - €45",
+            "duration": "60 min"
+          }
+        ]
+      },
+      {
+        "name": "Coloration",
+        "icon": "palette",
+        "services": [
+          { "name": "Coloration racines", "price": "€60", "duration": "60 min" }
+        ]
+      }
+    ]
+  },
+
+  "bookingPage": {
+    "title": {
+      "main": "Réservez votre",
+      "highlight": "rendez-vous"
+    },
+    "subtitle": "Je serai ravie de vous accueillir.",
+    "formIntro": "Les champs marqués * sont obligatoires.",
+    "form": {
+      "name": {
+        "label": "Nom complet *",
+        "placeholder": "Votre nom"
+      },
+      "email": {
+        "label": "Adresse e-mail *",
+        "placeholder": "vous@email.com"
+      },
+      "phone": {
+        "label": "Téléphone",
+        "placeholder": "+32..."
+      },
+      "service": {
+        "label": "Choisissez un service *",
+        "options": {
+          "withTint": "Rehaussement avec teinture",
+          "withoutTint": "Rehaussement sans teinture"
+        }
+      },
+      "date": {
+        "label": "Date souhaitée *"
+      },
+      "time": {
+        "label": "Heure souhaitée *"
+      },
+      "message": {
+        "label": "Notes",
+        "placeholder": "Demandes spéciales..."
+      },
+      "submitButton": "Envoyer la demande",
+      "submittingButton": "Envoi...",
+      "note": "Votre rendez-vous sera confirmé par message."
+    },
+    "confirmation": {
+      "title": "Demande envoyée !",
+      "message": "Nous vous contacterons bientôt."
+    }
+  },
+
   "contact": {
     "subtitle": "Contact",
     "title": "Contactez-nous",
-    "description": "Nous serions ravis d’avoir de vos nouvelles. Envoyez-nous un message.",
-
+    "description": "Envoyez-nous un message.",
+    "services": [
+      "Coiffure femmes",
+      "Coiffure hommes",
+      "Soins visage",
+      "Ongles",
+      "Épilation",
+      "Maquillage",
+      "Autre"
+    ],
     "form": {
       "name": "Nom",
       "email": "Email",
@@ -79,39 +244,141 @@
       "message": "Message",
       "send": "Envoyer",
       "sending": "Envoi...",
-      "success": "Votre message a été envoyé avec succès."
-    },
-
-    "info": {
-      "address_label": "Adresse",
-      "phone_label": "Téléphone",
-      "email_label": "Email",
-      "hours_label": "Heures d'ouverture"
+      "success": "Message envoyé avec succès."
     }
   },
+
   "footer": {
-    "description": "Votre destination beauté exceptionnelle pour les cheveux, les soins et le bien-être.",
+    "description": "Votre destination beauté d’exception.",
     "quick_links": "Liens rapides",
-    "legal": "Mentions légales",
+    "legal": "Légal",
     "privacy": "Politique de confidentialité",
-    "cookies": "Politique des cookies",
+    "cookies": "Politique de cookies",
     "terms": "Conditions générales",
     "follow": "Suivez-nous",
     "rights": "Tous droits réservés."
   },
+  "cookieBanner": {
+    "title": "Nous respectons votre vie privée",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience. Vous pouvez personnaliser vos préférences ci-dessous.",
+    "customize": "Personnaliser",
+    "acceptAll": "Tout accepter",
+    "savePreferences": "Enregistrer mes préférences",
+    "essential": "Essentiels",
+    "essentialDesc": "Nécessaires au fonctionnement du site.",
+    "analytics": "Analytiques",
+    "analyticsDesc": "Nous aident à comprendre l'utilisation du site.",
+    "marketing": "Marketing",
+    "marketingDesc": "Utilisés pour afficher du contenu personnalisé."
+  },
   "privacy": {
-    "title": "Politique de Confidentialité",
+    "title": "Politique de confidentialité",
     "last_updated": "Dernière mise à jour",
-    "last_updated_date": "01/04/2026"
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Collecte des données",
+        "content": "Nous collectons les informations que vous fournissez directement, telles que votre nom, votre adresse e-mail, votre numéro de téléphone et vos préférences de service lorsque vous effectuez une réservation ou nous contactez."
+      },
+      {
+        "title": "2. Utilisation des données",
+        "content": "Vos données personnelles sont utilisées pour gérer les rendez-vous, vous contacter concernant nos services, améliorer notre site web, envoyer des communications marketing (avec votre consentement) et respecter les obligations légales."
+      },
+      {
+        "title": "3. Base légale",
+        "content": "Nous traitons vos données sur la base de votre consentement, de l'exécution d'un contrat, de nos intérêts légitimes et du respect des obligations légales."
+      },
+      {
+        "title": "4. Partage des données",
+        "content": "Nous ne vendons jamais vos données personnelles. Nous pouvons les partager avec des prestataires de services qui nous aident à exploiter notre activité, toujours conformément au RGPD."
+      },
+      {
+        "title": "5. Conservation des données",
+        "content": "Nous conservons vos données personnelles aussi longtemps que nécessaire pour les finalités décrites dans cette politique, sauf si une période plus longue est requise par la loi."
+      },
+      {
+        "title": "6. Vos droits",
+        "content": "Conformément au RGPD, vous avez le droit d'accéder à vos données, de les rectifier, de les effacer, de limiter leur traitement, de demander leur portabilité et de vous opposer. Contactez-nous à [contact@beaute-divine.be](mailto:contact@beaute-divine.be)."
+      },
+      {
+        "title": "7. Sécurité",
+        "content": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre l'accès non autorisé, l'altération, la divulgation ou la destruction."
+      },
+      {
+        "title": "8. Contact",
+        "content": "Pour toute question concernant cette politique de confidentialité, contactez-nous à : [contact@beaute-divine.be](mailto:contact@beaute-divine.be) ou 123 Avenue de la Beauté, 1000 Bruxelles, Belgique."
+      }
+    ]
   },
   "cookies": {
-    "title": "Politique de Cookies",
+    "title": "Politique de cookies",
     "last_updated": "Dernière mise à jour",
-    "last_updated_date": "01/04/2026"
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Qu'est-ce qu'un cookie ?",
+        "content": "Un cookie est un petit fichier texte stocké sur votre appareil lorsque vous visitez un site web. Les cookies nous aident à faire fonctionner le site, à le sécuriser et à améliorer votre expérience."
+      },
+      {
+        "title": "2. Types de cookies",
+        "content": "Les cookies essentiels sont nécessaires au fonctionnement du site. Les cookies analytiques nous aident à comprendre comment les visiteurs utilisent notre site web. Les cookies de préférence mémorisent des paramètres tels que la langue. Les cookies marketing peuvent être utilisés pour afficher des publicités pertinentes."
+      },
+      {
+        "title": "3. Gestion des cookies",
+        "content": "Vous pouvez gérer vos préférences de cookies via les paramètres de votre navigateur. Veuillez noter que le blocage de certains cookies peut affecter votre expérience sur notre site."
+      },
+      {
+        "title": "4. Cookies tiers",
+        "content": "Certains cookies peuvent être placés par des services tiers apparaissant sur nos pages. Nous ne contrôlons pas ces cookies et recommandons de consulter leurs politiques de confidentialité."
+      },
+      {
+        "title": "5. Modifications",
+        "content": "Nous pouvons mettre à jour cette politique de cookies de temps en temps. Les modifications importantes seront communiquées via notre site web."
+      }
+    ]
   },
   "terms": {
-    "title": "Conditions Générales",
+    "title": "Conditions générales",
     "last_updated": "Dernière mise à jour",
-    "last_updated_date": "01/04/2026"
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Objet",
+        "content": "Ces conditions régissent l'utilisation de notre site web et de nos services de beauté. En utilisant nos services, vous acceptez ces conditions."
+      },
+      {
+        "title": "2. Services",
+        "content": "Nous proposons des services de coiffure, soins du visage, onglerie, épilation, maquillage et autres services de beauté. Les descriptions et les prix sont indicatifs et peuvent être modifiés sans préavis."
+      },
+      {
+        "title": "3. Rendez-vous",
+        "content": "Les rendez-vous peuvent être pris par téléphone, e-mail ou via notre formulaire en ligne. Les annulations doivent être effectuées au moins 24 heures à l'avance. Les annulations tardives ou absences peuvent entraîner des frais."
+      },
+      {
+        "title": "4. Prix et paiement",
+        "content": "Les prix sont en euros et incluent la TVA. Le paiement est dû à la fin de chaque service. Nous acceptons les espèces, les cartes bancaires et les virements."
+      },
+      {
+        "title": "5. Responsabilité",
+        "content": "Nous faisons de notre mieux pour fournir des services de qualité. Veuillez nous informer de toute allergie connue avant le début du traitement."
+      },
+      {
+        "title": "6. Propriété intellectuelle",
+        "content": "Tout le contenu de ce site (textes, images, logos) est protégé par le droit d'auteur et ne peut être reproduit sans notre autorisation écrite."
+      },
+      {
+        "title": "7. Droit applicable",
+        "content": "Ces conditions sont régies par le droit belge. Tout litige sera soumis aux tribunaux compétents de Bruxelles."
+      }
+    ]
+  },
+  "emailTemplate": {
+    "title": "Formulaire de contact DevUnity",
+    "name": "Nom",
+    "email": "Email",
+    "companyName": "Nom de l'entreprise",
+    "phone": "Numéro de téléphone",
+    "selectedService": "Service sélectionné",
+    "message": "Message"
   }
 }

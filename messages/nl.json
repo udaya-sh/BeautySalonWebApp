@@ -1,7 +1,7 @@
 {
   "common": {
     "learnMore": "Meer info",
-    "bookNow": "Boeken",
+    "bookNow": "Boek nu",
     "submit": "Verzenden",
     "loading": "Laden...",
     "locale": "nl-BE"
@@ -10,66 +10,303 @@
     "home": "Home",
     "about": "Over ons",
     "services": "Diensten & Prijzen",
-    "booking": "Afspraak",
+    "booking": "Boeken",
     "bookNow": "Boek nu",
     "toggleMenu": "Menu openen",
     "contact": "Contact"
   },
   "hero": {
     "subtitle": "Dameskapsalon & Schoonheid",
-    "title": "De Kunst van Schoonheid",
-    "description": "Ontdek een uitzonderlijke schoonheidsbeleving in onze salon. Haarstyling, gezichtsbehandelingen, manicure en meer.",
+    "title": "De kunst van schoonheid, opnieuw uitgevonden",
+    "description": "Ontdek een uitzonderlijke beauty-ervaring in onze salon. Haarstyling, gezichtsbehandelingen, manicure en meer. Elk bezoek is een moment van luxe.",
     "cta": "Boek nu",
     "discover": "Ontdek onze diensten"
   },
+  "beforeAfter": {
+    "title": {
+      "main": "Bekijk de",
+      "highlight": "Transformatie"
+    },
+    "subtitle": "Onze lash lifts zorgen voor een prachtige en natuurlijke verbetering. Zie zelf het verschil!",
+    "beforeLabel": "Voor",
+    "afterLabel": "Na",
+    "image1": {
+      "beforeAlt": "Rechte wimpers voor lash lift",
+      "afterAlt": "Gelifte wimpers na behandeling"
+    },
+    "image2": {
+      "beforeAlt": "Natuurlijke wimpers voor behandeling",
+      "afterAlt": "Gedefinieerde wimpers na lash lift"
+    },
+    "imageCaption": "Voorbeeld",
+    "ctaViewGallery": "Bekijk volledige galerij"
+  },
   "servicesOverview": {
-    "subtitle": "Onze Expertise",
-    "title": "Uitmuntende Diensten",
-    "description": "Van haarstyling tot volledige behandelingen, wij bieden een breed scala aan schoonheidsdiensten.",
+    "subtitle": "Onze expertise",
+    "title": "Uitstekende diensten",
+    "description": "Van haarstyling tot complete behandelingen, wij bieden een volledig aanbod aan schoonheidsdiensten uitgevoerd door gepassioneerde experts.",
     "serviceNames": {
       "hair": "Haarstyling",
       "skin": "Gezichtsverzorging",
       "nails": "Nagelverzorging"
     },
     "serviceDesc": {
-      "hair": "Knippen, kleuren en styling",
-      "skin": "Anti-aging en hydraterende behandelingen",
+      "hair": "Knippen, kleuren en styling voor evenementen",
+      "skin": "Anti-aging, hydraterende en glow behandelingen",
       "nails": "Manicure, pedicure en nail art"
     }
   },
   "why_us": {
-    "subtitle": "Waarom Wij",
-    "title": "De Essentie van Maison de Beauté",
-    "description": "Iedereen verdient een unieke en persoonlijke beauty-ervaring.",
+    "subtitle": "Waarom voor ons kiezen",
+    "title": "De essentie van Maison de Beauté",
+    "description": "Wij geloven dat iedereen een unieke en persoonlijke beauty-ervaring verdient. Dit maakt ons bijzonder.",
     "reasons": [
       {
         "title": "Expertise",
-        "desc": "Onze specialisten zijn getraind in de nieuwste technieken."
+        "desc": "Onze experts zijn getraind in de nieuwste technieken en blijven hun vak perfectioneren."
       },
       {
-        "title": "Persoonlijke Zorg",
-        "desc": "Elke behandeling wordt aangepast aan uw wensen."
+        "title": "Persoonlijke verzorging",
+        "desc": "Elke consultatie wordt aangepast aan uw kenmerken, wensen en levensstijl."
       },
       {
-        "title": "Premium Producten",
-        "desc": "Wij gebruiken uitsluitend hoogwaardige producten."
+        "title": "Premium producten",
+        "desc": "Wij selecteren zorgvuldig hoogwaardige en veilige producten voor uw huid."
       },
       {
-        "title": "Natuurlijke Aanpak",
-        "desc": "Wij respecteren uw huid en het milieu."
+        "title": "Natuurlijke aanpak",
+        "desc": "Wij kiezen behandelingen die uw huid en het milieu respecteren."
+      }
+    ]
+  },
+  "way_of_working": {
+    "subtitle": "Onze methode",
+    "title": "Hoe wij werken",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Consultatie",
+        "desc": "We beginnen met een grondige consultatie om uw verwachtingen en behoeften te begrijpen."
+      },
+      {
+        "number": "02",
+        "title": "Advies",
+        "desc": "Onze experts analyseren uw behoeften en stellen een persoonlijk behandelplan voor."
+      },
+      {
+        "number": "03",
+        "title": "Behandeling",
+        "desc": "Wij voeren uw behandeling uit met precisie en passie."
+      },
+      {
+        "number": "04",
+        "title": "Nazorg",
+        "desc": "We begeleiden u met onderhoudsadvies voor langdurige resultaten."
       }
     ]
   },
   "ctaHome": {
-    "title": "Klaar om te Stralen?",
-    "description": "Maak vandaag nog een afspraak en laat uw natuurlijke schoonheid stralen.",
-    "buttonText": "Afspraak maken"
+    "title": "Klaar om te stralen?",
+    "description": "Maak vandaag nog een afspraak en laat ons uw natuurlijke schoonheid onthullen.",
+    "buttonText": "Maak een afspraak"
+  },
+  "aboutPage": {
+    "subtitle": "Ons verhaal",
+    "title": "Een passie voor schoonheid",
+    "p1": "Opgericht met de visie om een plek te creëren waar luxe en welzijn samenkomen.",
+    "p2": "Ons team gebruikt de meest geavanceerde technieken en hoogwaardige producten.",
+    "p3": "Elke bezoek is een unieke ervaring in een elegante en ontspannen omgeving.",
+    "stats": {
+      "years": "Jaren ervaring",
+      "clients": "Tevreden klanten",
+      "experts": "Beauty experts",
+      "products": "Premium producten"
+    },
+    "values_title": "Onze waarden",
+    "values": [
+      {
+        "title": "Uitmuntendheid",
+        "desc": "Wij streven naar perfectie in elke behandeling."
+      },
+      {
+        "title": "Personalisatie",
+        "desc": "Elke klant is uniek en verdient een behandeling op maat."
+      },
+      {
+        "title": "Innovatie",
+        "desc": "Wij volgen de nieuwste trends en technologieën."
+      },
+      {
+        "title": "Welzijn",
+        "desc": "Uw comfort en ontspanning staan centraal."
+      }
+    ]
+  },
+  "services_page": {
+    "subtitle": "Onze diensten",
+    "title": "Diensten & Prijzen",
+    "description": "Ontdek ons volledig aanbod van schoonheidsbehandelingen, ontworpen om uw natuurlijke schoonheid te benadrukken en u een moment van ontspanning te bieden.",
+
+    "categories": {
+      "hair": {
+        "title": "Haarverzorging",
+        "services": [
+          {
+            "name": "Dames knippen",
+            "price": "Vanaf €35",
+            "duration": "45 min"
+          },
+          {
+            "name": "Brushing",
+            "price": "Vanaf €25",
+            "duration": "30 min"
+          },
+          {
+            "name": "Kleuren",
+            "price": "Vanaf €60",
+            "duration": "1u30"
+          },
+          {
+            "name": "Balayage",
+            "price": "Vanaf €95",
+            "duration": "2u"
+          }
+        ]
+      },
+
+      "skin": {
+        "title": "Gezichtsbehandelingen",
+        "services": [
+          {
+            "name": "Hydraterende gezichtsbehandeling",
+            "price": "€70",
+            "duration": "1u"
+          },
+          {
+            "name": "Anti-aging behandeling",
+            "price": "€85",
+            "duration": "1u15"
+          },
+          {
+            "name": "Diep reinigende facial",
+            "price": "€65",
+            "duration": "1u"
+          }
+        ]
+      }
+    },
+
+    "nails": {
+      "title": "Nagelverzorging",
+      "services": [
+        {
+          "name": "Manicure",
+          "price": "€30",
+          "duration": "30 min"
+        },
+        {
+          "name": "Pedicure",
+          "price": "€40",
+          "duration": "45 min"
+        },
+        {
+          "name": "Gel nagels",
+          "price": "€55",
+          "duration": "1u15"
+        },
+        {
+          "name": "Nail art",
+          "price": "Vanaf €10",
+          "duration": "15 min"
+        }
+      ]
+    },
+
+    "beauty": {
+      "title": "Beauty behandelingen",
+      "services": [
+        {
+          "name": "Lash lift zonder kleuring",
+          "price": "€50",
+          "duration": "45 min"
+        },
+        {
+          "name": "Lash lift met kleuring",
+          "price": "€60",
+          "duration": "1u"
+        },
+        {
+          "name": "Wenkbrauwen shaping",
+          "price": "€20",
+          "duration": "20 min"
+        },
+        {
+          "name": "Make-up",
+          "price": "Vanaf €45",
+          "duration": "45 min"
+        }
+      ]
+    }
+  },
+  "bookingPage": {
+    "title": {
+      "main": "Boek uw",
+      "highlight": "afspraak"
+    },
+    "subtitle": "Ik kijk ernaar uit u te verwelkomen.",
+    "formIntro": "Velden met * zijn verplicht.",
+    "form": {
+      "name": {
+        "label": "Volledige naam *",
+        "placeholder": "Uw naam"
+      },
+      "email": {
+        "label": "E-mailadres *",
+        "placeholder": "[u@example.com](mailto:u@example.com)"
+      },
+      "phone": {
+        "label": "Telefoonnummer (optioneel)",
+        "placeholder": "+32..."
+      },
+      "service": {
+        "label": "Kies een service *",
+        "options": {
+          "withTint": "Lash lift met kleuring",
+          "withoutTint": "Lash lift zonder kleuring"
+        }
+      },
+      "date": {
+        "label": "Gewenste datum *"
+      },
+      "time": {
+        "label": "Gewenste tijd *"
+      },
+      "message": {
+        "label": "Extra opmerkingen",
+        "placeholder": "Vragen of speciale wensen?"
+      },
+      "submitButton": "Afspraak aanvragen",
+      "submittingButton": "Verzenden...",
+      "note": "Uw afspraak is bevestigd zodra u een bevestigingsbericht ontvangt."
+    },
+    "confirmation": {
+      "title": "Aanvraag verzonden!",
+      "message": "Bedankt voor uw aanvraag. We nemen snel contact met u op."
+    }
   },
   "contact": {
     "subtitle": "Contact",
-    "title": "Neem Contact Op",
-    "description": "We horen graag van u. Stuur ons een bericht.",
-
+    "title": "Neem contact op",
+    "description": "We horen graag van u.",
+    "services": [
+      "Dameskapsalon",
+      "Herenkapsalon",
+      "Gezichtsbehandelingen",
+      "Nagels",
+      "Ontharing",
+      "Make-up",
+      "Overig"
+    ],
     "form": {
       "name": "Naam",
       "email": "E-mail",
@@ -81,16 +318,19 @@
       "sending": "Verzenden...",
       "success": "Uw bericht is succesvol verzonden."
     },
-
     "info": {
       "address_label": "Adres",
+      "address": "Uw salonadres",
       "phone_label": "Telefoon",
+      "phone": "+32 XXX XX XX XX",
       "email_label": "E-mail",
-      "hours_label": "Openingstijden"
+      "email": "[contact@salon.com](mailto:contact@salon.com)",
+      "hours_label": "Openingstijden",
+      "hours": "Ma - Za\n09:00 - 18:00"
     }
   },
   "footer": {
-    "description": "Uw uitzonderlijke schoonheidsbestemming voor haar, verzorging en welzijn.",
+    "description": "Uw bestemming voor uitzonderlijke schoonheid en verzorging.",
     "quick_links": "Snelle links",
     "legal": "Juridisch",
     "privacy": "Privacybeleid",
@@ -99,19 +339,127 @@
     "follow": "Volg ons",
     "rights": "Alle rechten voorbehouden."
   },
+  "cookieBanner": {
+    "title": "Wij respecteren uw privacy",
+    "description": "Wij gebruiken cookies om uw ervaring te verbeteren. U kunt uw voorkeuren hieronder aanpassen.",
+    "customize": "Aanpassen",
+    "acceptAll": "Alles accepteren",
+    "savePreferences": "Voorkeuren opslaan",
+    "essential": "Essentieel",
+    "essentialDesc": "Noodzakelijk voor de werking van de site.",
+    "analytics": "Analytisch",
+    "analyticsDesc": "Helpen ons begrijpen hoe u de site gebruikt.",
+    "marketing": "Marketing",
+    "marketingDesc": "Gebruikt voor gepersonaliseerde inhoud."
+  },
   "privacy": {
     "title": "Privacybeleid",
     "last_updated": "Laatst bijgewerkt",
-    "last_updated_date": "01/04/2026"
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Gegevensverzameling",
+        "content": "Wij verzamelen informatie die u rechtstreeks verstrekt, zoals uw naam, e-mailadres, telefoonnummer en servicevoorkeuren wanneer u een afspraak maakt of contact met ons opneemt."
+      },
+      {
+        "title": "2. Gebruik van gegevens",
+        "content": "Uw persoonsgegevens worden gebruikt om afspraken te beheren, u te contacteren over onze diensten, onze website te verbeteren, marketingcommunicatie te verzenden (met toestemming) en te voldoen aan wettelijke verplichtingen."
+      },
+      {
+        "title": "3. Rechtsgrond",
+        "content": "Wij verwerken uw gegevens op basis van uw toestemming, de uitvoering van een overeenkomst, onze gerechtvaardigde belangen en het naleven van wettelijke verplichtingen."
+      },
+      {
+        "title": "4. Delen van gegevens",
+        "content": "Wij verkopen uw persoonsgegevens nooit. Wij kunnen ze delen met dienstverleners die ons helpen onze activiteiten te beheren, altijd in overeenstemming met de GDPR."
+      },
+      {
+        "title": "5. Bewaartermijn",
+        "content": "Wij bewaren uw persoonsgegevens zolang als nodig is voor de doeleinden die in dit beleid worden beschreven, tenzij een langere bewaartermijn wettelijk vereist is."
+      },
+      {
+        "title": "6. Uw rechten",
+        "content": "Volgens de GDPR hebt u het recht op inzage, correctie, verwijdering, beperking van verwerking, gegevensoverdraagbaarheid en bezwaar. Contacteer ons via [contact@beaute-divine.be](mailto:contact@beaute-divine.be)."
+      },
+      {
+        "title": "7. Beveiliging",
+        "content": "Wij nemen passende technische en organisatorische maatregelen om uw persoonsgegevens te beschermen tegen ongeautoriseerde toegang, wijziging, openbaarmaking of vernietiging."
+      },
+      {
+        "title": "8. Contact",
+        "content": "Voor vragen over dit privacybeleid kunt u contact opnemen via: [contact@beaute-divine.be](mailto:contact@beaute-divine.be) of 123 Avenue de la Beauté, 1000 Brussel, België."
+      }
+    ]
   },
   "cookies": {
     "title": "Cookiebeleid",
     "last_updated": "Laatst bijgewerkt",
-    "last_updated_date": "01/04/2026"
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Wat is een cookie?",
+        "content": "Een cookie is een klein tekstbestand dat op uw apparaat wordt opgeslagen wanneer u een website bezoekt. Cookies helpen ons de website correct te laten functioneren, deze veilig te houden en uw ervaring te verbeteren."
+      },
+      {
+        "title": "2. Soorten cookies",
+        "content": "Essentiële cookies zijn noodzakelijk voor het functioneren van de website. Analytische cookies helpen ons te begrijpen hoe bezoekers onze website gebruiken. Voorkeurscookies onthouden instellingen zoals taal. Marketingcookies kunnen worden gebruikt om relevante advertenties te tonen."
+      },
+      {
+        "title": "3. Cookies beheren",
+        "content": "U kunt uw cookievoorkeuren beheren via de instellingen van uw browser. Houd er rekening mee dat het blokkeren van sommige cookies uw ervaring op onze website kan beïnvloeden."
+      },
+      {
+        "title": "4. Cookies van derden",
+        "content": "Sommige cookies kunnen worden geplaatst door externe diensten die op onze pagina's verschijnen. Wij hebben geen controle over deze cookies en raden aan hun privacybeleid te raadplegen."
+      },
+      {
+        "title": "5. Wijzigingen",
+        "content": "Wij kunnen dit cookiebeleid van tijd tot tijd bijwerken. Belangrijke wijzigingen worden via onze website gecommuniceerd."
+      }
+    ]
   },
   "terms": {
-    "title": "Algemene Voorwaarden",
+    "title": "Algemene voorwaarden",
     "last_updated": "Laatst bijgewerkt",
-    "last_updated_date": "01/04/2026"
+    "last_updated_date": "01/04/2026",
+    "sections": [
+      {
+        "title": "1. Doel",
+        "content": "Deze voorwaarden regelen het gebruik van onze website en schoonheidsdiensten. Door gebruik te maken van onze diensten gaat u akkoord met deze voorwaarden."
+      },
+      {
+        "title": "2. Diensten",
+        "content": "Wij bieden haar-, gezichts-, nagel-, ontharings-, make-up- en andere schoonheidsdiensten aan. Beschrijvingen en prijzen zijn indicatief en kunnen zonder voorafgaande kennisgeving worden gewijzigd."
+      },
+      {
+        "title": "3. Afspraken",
+        "content": "Afspraken kunnen telefonisch, via e-mail of via ons online formulier worden gemaakt. Annuleringen moeten minstens 24 uur op voorhand gebeuren. Laattijdige annuleringen of niet opdagen kunnen kosten met zich meebrengen."
+      },
+      {
+        "title": "4. Prijzen en betaling",
+        "content": "Alle prijzen zijn in euro en inclusief btw. Betaling gebeurt aan het einde van elke behandeling. Wij aanvaarden contant geld, bankkaarten en overschrijvingen."
+      },
+      {
+        "title": "5. Aansprakelijkheid",
+        "content": "Wij doen ons best om kwalitatieve diensten te leveren. Gelieve ons vooraf te informeren over eventuele allergieën voordat de behandeling begint."
+      },
+      {
+        "title": "6. Intellectuele eigendom",
+        "content": "Alle inhoud op deze website (teksten, afbeeldingen, logo’s) is beschermd door auteursrecht en mag niet worden gereproduceerd zonder onze schriftelijke toestemming."
+      },
+      {
+        "title": "7. Toepasselijk recht",
+        "content": "Deze voorwaarden vallen onder het Belgisch recht. Eventuele geschillen worden voorgelegd aan de bevoegde rechtbanken van Brussel."
+      }
+    ]
+  },
+  "emailTemplate": {
+    "title": "DevUnity Contactformulier",
+    "name": "Naam",
+    "email": "E-mail",
+    "companyName": "Bedrijfsnaam",
+    "phone": "Telefoonnummer",
+    "selectedService": "Geselecteerde dienst",
+    "message": "Bericht"
   }
 }
