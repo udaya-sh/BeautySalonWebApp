@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     description: "Premium beauty services tailored for you.",
     images: [
       {
-        url: "https://media.base44.com/images/public/69c24a713322c8d8ad724ffb/a29e1e2b1_generated_a38eb86b.png",
+        url: "/heroBackground.png",
         width: 1200,
         height: 630,
       },
