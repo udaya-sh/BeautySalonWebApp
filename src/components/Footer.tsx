@@ -43,13 +43,13 @@ export default function Footer() {
 
             <div className="flex gap-3 mt-6 justify-center md:justify-start">
               {[
-                { label: "Instagram", icon: <Instagram className="w-4 h-4" /> },
-                { label: "Facebook", icon: <Facebook className="w-4 h-4" /> },
-                { label: "TikTok", icon: <TikTokIcon /> },
-              ].map(({ label, icon }) => (
+                { label: "Instagram", icon: <Instagram className="w-4 h-4"/>, href: "https://www.instagram.com/maison.de.beaute.bruxelles_"},
+                // { label: "Facebook", icon: <Facebook className="w-4 h-4" /> },
+                // { label: "TikTok", icon: <TikTokIcon /> },
+              ].map(({ label, icon, href }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={href}
                   aria-label={label}
                   className="w-9 h-9 rounded-full border border-primary-foreground/20 flex items-center justify-center text-primary-foreground/60 hover:bg-primary-foreground/10 hover:text-primary-foreground transition-all"
                 >

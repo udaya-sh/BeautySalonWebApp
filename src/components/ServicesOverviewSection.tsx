@@ -7,7 +7,7 @@ import { Scissors, Sparkles, Hand } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
 
 const HAIR_IMG =
-  "/hairr.PNG";
+  "/hairr.png";
 
 const BEAUTY_IMG =
   "/nail.png";
