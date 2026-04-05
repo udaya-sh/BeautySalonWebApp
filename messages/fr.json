@@ -148,32 +148,147 @@
     ]
   },
 
-  "services_page": {
-    "subtitle": "Nos services",
-    "title": "Services & Tarifs",
-    "description": "Découvrez notre menu complet de services beauté.",
-    "categories": [
-      {
-        "name": "Coupe & Coiffage",
-        "icon": "scissors",
-        "services": [
-          { "name": "Brushing", "price": "€20 - €25", "duration": "30 min" },
-          {
-            "name": "Coupe + Brushing",
-            "price": "€35 - €45",
-            "duration": "60 min"
-          }
-        ]
-      },
-      {
-        "name": "Coloration",
-        "icon": "palette",
-        "services": [
-          { "name": "Coloration racines", "price": "€60", "duration": "60 min" }
-        ]
-      }
-    ]
-  },
+"services_page": {
+  "subtitle": "Nos Services",
+  "title": "Prix & Services",
+  "description": "Découvrez notre menu complet de services de beauté, chacun conçu pour sublimer votre beauté naturelle.",
+  "categories": [
+    {
+      "name": "Coupe & Coiffage",
+      "icon": "scissors",
+      "services": [
+        { "name": "Brushing", "price": "€20 - €25", "duration": "30 min" },
+        {
+          "name": "Coupe + Shampooing + Brushing",
+          "price": "€35 - €45",
+          "duration": "60 min"
+        },
+        { "name": "Shampooing + Coupe", "price": "€35", "duration": "45 min" },
+        {
+          "name": "Shampooing + Brushing",
+          "price": "€25",
+          "duration": "30 min"
+        },
+        {
+          "name": "Coupe Enfant",
+          "price": "€20 - €25",
+          "duration": "20 min"
+        },
+        { "name": "Masque", "price": "€10", "duration": "15 min" }
+      ]
+    },
+    {
+      "name": "Coloration",
+      "icon": "palette",
+      "services": [
+        { "name": "Coloration Racines", "price": "€60", "duration": "60 min" },
+        {
+          "name": "Coloration Complète",
+          "price": "€60 - €100",
+          "duration": "90 min"
+        },
+        {
+          "name": "Mèches",
+          "price": "€70 - €200",
+          "duration": "120 min"
+        },
+        { "name": "Balayage", "price": "€60 - €300", "duration": "120 min" },
+        { "name": "Coloration + Brushing", "price": "€50", "duration": "60 min" },
+        { "name": "Permanente", "price": "€60 - €250", "duration": "150 min" },
+        { "name": "Ombré — À partir de", "price": "€130", "duration": "120 min" }
+      ]
+    },
+    {
+      "name": "Lissage",
+      "icon": "sparkles",
+      "services": [
+        {
+          "name": "Jusqu'au Cou",
+          "price": "€100 - €200",
+          "duration": "120 min"
+        },
+        { "name": "Mi-dos", "price": "€150", "duration": "150 min" },
+        {
+          "name": "Sous les Omoplates",
+          "price": "€200",
+          "duration": "180 min"
+        },
+        { "name": "Chignon", "price": "€45", "duration": "45 min" },
+        { "name": "Chignon de Soirée", "price": "€35", "duration": "45 min" },
+        { "name": "Chignon de Mariée", "price": "€100", "duration": "90 min" },
+        { "name": "Extensions de Cheveux", "price": "Sur demande", "duration": "—" }
+      ]
+    },
+    {
+      "name": "Épilation",
+      "icon": "zap",
+      "services": [
+        { "name": "Visage", "price": "€25", "duration": "15 min" },
+        { "name": "Bikini", "price": "€20", "duration": "15 min" },
+        { "name": "Jambes Complètes", "price": "€20", "duration": "40 min" },
+        { "name": "Demi-jambes", "price": "€15", "duration": "20 min" },
+        { "name": "Aisselles", "price": "€10", "duration": "10 min" },
+        { "name": "Demi-bras", "price": "€15", "duration": "15 min" },
+        { "name": "Corps Complet", "price": "€50 - €60", "duration": "60 min" }
+      ]
+    },
+    {
+      "name": "Soins du Visage",
+      "icon": "sparkles",
+      "services": [
+        { "name": "Nettoyage en Profondeur", "price": "€50", "duration": "60 min" },
+        { "name": "Peeling", "price": "€90", "duration": "60 min" },
+        {
+          "name": "Soin Éclat Jeunesse",
+          "price": "€80",
+          "duration": "75 min"
+        }
+      ]
+    },
+    {
+      "name": "Maquillage",
+      "icon": "palette",
+      "services": [
+        { "name": "Maquillage de Jour", "price": "€25 - €45", "duration": "30 min" },
+        {
+          "name": "Maquillage de Soirée",
+          "price": "€35 - €65",
+          "duration": "45 min"
+        }
+      ]
+    },
+    {
+      "name": "Cils & Sourcils",
+      "icon": "sparkles",
+      "services": [
+        { "name": "Lash Lift", "price": "€40", "duration": "45 min" },
+        {
+          "name": "Lamination des Sourcils + Teinture",
+          "price": "€50",
+          "duration": "45 min"
+        },
+        { "name": "Teinture des Sourcils", "price": "€10", "duration": "15 min" },
+        { "name": "Épilation des Sourcils", "price": "€10", "duration": "10 min" },
+        { "name": "Lamination des Cils", "price": "€40", "duration": "45 min" },
+        {
+          "name": "Lamination des Cils + Teinture",
+          "price": "€60",
+          "duration": "60 min"
+        },
+        {
+          "name": "Extensions de Cils (set)",
+          "price": "€60",
+          "duration": "60 min"
+        },
+        {
+          "name": "Extensions de Cils Individuelles",
+          "price": "€80",
+          "duration": "90 min"
+        }
+      ]
+    }
+  ]
+},
 
   "bookingPage": {
     "title": {
@@ -245,6 +360,16 @@
       "send": "Envoyer",
       "sending": "Envoi...",
       "success": "Message envoyé avec succès."
+    },
+    "info": {
+      "address_label": "Adresse",
+      "address": "Adresse de votre salon",
+      "phone_label": "Téléphone",
+      "phone": "+32 XXX XX XX XX",
+      "email_label": "Email",
+      "email": "contact@salon.com",
+      "hours_label": "Heures d'ouverture",
+      "hours": "Lun - Dim\n09:00 - 18:00"
     }
   },
 

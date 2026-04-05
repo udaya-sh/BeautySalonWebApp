@@ -11,9 +11,7 @@ export async function POST(req: NextRequest) {
   const {
     name,
     email,
-    companyName,
     phone,
-    selectedService,
     message
   } = body;
 
@@ -30,20 +28,18 @@ export async function POST(req: NextRequest) {
 
   try {
     // Generate the email template with the provided props
-    const emailContent = EmailTemplate({
+    const emailContent = await EmailTemplate({
       name,
       email,
-      companyName,
       phone,
-      selectedService,
       message
     });
 
     // Send email via Resend
     const { data, error } = await resend.emails.send({
-      from: "Devunity <prospects@devunity.be>", // Sender email
-      to: "info@devunity.be", // Recipient email
-      subject: "Message from DevUnity website",
+      from: "Maison de Beauté <prospects@devunity.be>", // Sender email
+      to: "drilonalia11@gmail.com", // Recipient email
+      subject: "Message from Maison de Beauté website",
       react: emailContent as React.ReactElement, // Pass the email content with all data
     });
 

@@ -73,8 +73,10 @@ export default function Navbar() {
             src={LOGO}
             alt="Maison de Beauté logo"
             width={200}
-            height={100}
+            height={200}
+            className=" mt-3 w-auto"
             priority
+            fetchPriority="high"
           />
           <span className="font-heading text-xl md:text-2xl font-semibold tracking-tight">
             {/* Maison de <span className="text-accent">Beauté</span> */}

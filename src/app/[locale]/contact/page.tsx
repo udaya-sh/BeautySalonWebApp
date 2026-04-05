@@ -1,59 +1,92 @@
 "use client";
-
+import React, { useCallback, useState } from "react";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-
+import { toast } from "sonner";
+import { Toaster } from "@/components/ui/sonner";
 
 export default function Contact() {
-  const t = useTranslations("contact");
-
-  const [sending, setSending] = useState(false);
-  const [sent, setSent] = useState(false);
-
-  const [form, setForm] = useState({
+  const [form, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
-    service: "",
     message: "",
   });
+  const t = useTranslations("contact");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errors, setErrors] = useState<Record<string, boolean>>({});
+  const [buttonText, setButtonText] = useState(t("form.send"));
 
-  const services = t.raw("services");
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    console.log(name, value);
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+  // Validation function
+  const handleValidation = useCallback(() => {
+    let tempErrors: Record<string, boolean> = {};
+    let isValid = true;
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  const handleSubmit = async (e: any) => {
-    e.preventDefault();
-    setSending(true);
-
-    await new Promise((r) => setTimeout(r, 1500));
-
-    setSending(false);
-    setSent(true);
-
-    setForm({
-      name: "",
-      email: "",
-      phone: "",
-      service: "",
-      message: "",
+    Object.entries(form).forEach(([key, value]) => {
+      if (!value && key !== "companyName") {
+        tempErrors[key] = true;
+        isValid = false;
+      }
     });
 
-    setTimeout(() => setSent(false), 5000);
+    setErrors(tempErrors);
+    return isValid;
+  }, [form]);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!handleValidation()) return;
+
+    setButtonText(t("form.sending"));
+    try {
+      const res = await fetch("/api/contact/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      const { error } = await res.json();
+
+      if (error) {
+        toast.error("error");
+      } else {
+        toast.success(t("form.success"));
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      }
+    } catch {
+      toast.error("error");
+    } finally {
+      setButtonText(t("form.send"));
+    }
   };
 
   const infoItems = [
-    { icon: MapPin, label: t("info.address_label"), value: t("info.address") },
-    { icon: Phone, label: t("info.phone_label"), value: t("info.phone") },
-    { icon: Mail, label: t("info.email_label"), value: t("info.email") },
+    {
+      icon: MapPin,
+      label: t("info.address_label"),
+      value: "Av. Gustave Latinis 43, 1030 Schaerbeek",
+    },
+    { icon: Phone, label: t("info.phone_label"), value: "0465914824" },
+    {
+      icon: Mail,
+      label: t("info.email_label"),
+      value: "drilonalia11@gmail.com",
+    },
     { icon: Clock, label: t("info.hours_label"), value: t("info.hours") },
   ];
 
@@ -62,7 +95,10 @@ export default function Contact() {
       {/* Header */}
       <section className="pt-32 pb-16 md:pt-40 md:pb-20 bg-secondary/30">
         <div className="max-w-7xl mx-auto px-6 text-center">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+          >
             <span className="text-accent text-xs uppercase tracking-[0.3em] font-medium">
               {t("subtitle")}
             </span>
@@ -82,7 +118,6 @@ export default function Contact() {
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
-
             {/* Form */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -91,9 +126,7 @@ export default function Contact() {
               className="lg:col-span-3"
             >
               <form onSubmit={handleSubmit} className="space-y-5">
-
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-
                   <div>
                     <label className="text-xs uppercase tracking-wider text-muted-foreground mb-2 block">
                       {t("form.name")}
@@ -101,12 +134,15 @@ export default function Contact() {
 
                     <Input
                       required
+                      id="name"
+                      name="name"
                       value={form.name}
-                      onChange={(e) =>
-                        setForm({ ...form, name: e.target.value })
-                      }
+                      onChange={handleChange}
                       className="bg-secondary/50 border-border/60 rounded-xl h-12"
                     />
+                    {errors["name"] && (
+                      <p className="text-[#e6551b]">{t("required")}</p>
+                    )}
                   </div>
 
                   <div>
@@ -116,29 +152,29 @@ export default function Contact() {
 
                     <Input
                       type="email"
+                      id="email"
+                      name="email"
                       required
                       value={form.email}
-                      onChange={(e) =>
-                        setForm({ ...form, email: e.target.value })
-                      }
+                      onChange={handleChange}
                       className="bg-secondary/50 border-border/60 rounded-xl h-12"
                     />
                   </div>
-
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-
                   <div>
                     <label className="text-xs uppercase tracking-wider text-muted-foreground mb-2 block">
                       {t("form.phone")}
                     </label>
 
                     <Input
+                      type="number"
+                      id="phone"
+                      name="phone"
+                      required
                       value={form.phone}
-                      onChange={(e) =>
-                        setForm({ ...form, phone: e.target.value })
-                      }
+                      onChange={handleChange}
                       className="bg-secondary/50 border-border/60 rounded-xl h-12"
                     />
                   </div>
@@ -150,34 +186,23 @@ export default function Contact() {
                   </label>
 
                   <Textarea
+                    id="message"
+                    name="message"
                     required
-                    rows={5}
+                    rows={6}
                     value={form.message}
-                    onChange={(e) =>
-                      setForm({ ...form, message: e.target.value })
-                    }
-                    className="bg-secondary/50 border-border/60 rounded-xl resize-none"
+                    onChange={handleChange}
+                    className="bg-secondary/50 border-border/60 rounded-xl resize-none "
                   />
                 </div>
 
                 <Button
                   type="submit"
-                  disabled={sending}
+                  disabled={isSubmitting}
                   className="w-full sm:w-auto px-10 py-3 h-12 rounded-full bg-accent text-accent-foreground hover:brightness-110"
                 >
-                  {sending ? t("form.sending") : t("form.send")}
+                  {isSubmitting ? t("form.sending") : t("form.send")}
                 </Button>
-
-                {sent && (
-                  <motion.p
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    className="text-sm text-green-600 font-medium"
-                  >
-                    {t("form.success")}
-                  </motion.p>
-                )}
-
               </form>
             </motion.div>
 
@@ -190,7 +215,6 @@ export default function Contact() {
             >
               {infoItems.map((item, i) => (
                 <div key={i} className="flex gap-4">
-
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
                     <item.icon className="w-5 h-5 text-accent" />
                   </div>
@@ -204,14 +228,15 @@ export default function Contact() {
                       {item.value}
                     </p>
                   </div>
-
                 </div>
               ))}
             </motion.div>
-
           </div>
         </div>
       </section>
+      <Toaster
+        toastOptions={{ style: { background: "#dc2626", color: "#fff" } }}
+      />
     </>
   );
 }

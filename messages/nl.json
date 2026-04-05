@@ -142,112 +142,147 @@
       }
     ]
   },
-  "services_page": {
-    "subtitle": "Onze diensten",
-    "title": "Diensten & Prijzen",
-    "description": "Ontdek ons volledig aanbod van schoonheidsbehandelingen, ontworpen om uw natuurlijke schoonheid te benadrukken en u een moment van ontspanning te bieden.",
-
-    "categories": {
-      "hair": {
-        "title": "Haarverzorging",
-        "services": [
-          {
-            "name": "Dames knippen",
-            "price": "Vanaf €35",
-            "duration": "45 min"
-          },
-          {
-            "name": "Brushing",
-            "price": "Vanaf €25",
-            "duration": "30 min"
-          },
-          {
-            "name": "Kleuren",
-            "price": "Vanaf €60",
-            "duration": "1u30"
-          },
-          {
-            "name": "Balayage",
-            "price": "Vanaf €95",
-            "duration": "2u"
-          }
-        ]
-      },
-
-      "skin": {
-        "title": "Gezichtsbehandelingen",
-        "services": [
-          {
-            "name": "Hydraterende gezichtsbehandeling",
-            "price": "€70",
-            "duration": "1u"
-          },
-          {
-            "name": "Anti-aging behandeling",
-            "price": "€85",
-            "duration": "1u15"
-          },
-          {
-            "name": "Diep reinigende facial",
-            "price": "€65",
-            "duration": "1u"
-          }
-        ]
-      }
-    },
-
-    "nails": {
-      "title": "Nagelverzorging",
+ "services_page": {
+  "subtitle": "Onze Diensten",
+  "title": "Prijzen & Diensten",
+  "description": "Ontdek ons volledige aanbod aan schoonheidsbehandelingen, elk ontworpen om je natuurlijke schoonheid te versterken.",
+  "categories": [
+    {
+      "name": "Knippen & Styling",
+      "icon": "scissors",
       "services": [
+        { "name": "Brushing", "price": "€20 - €25", "duration": "30 min" },
         {
-          "name": "Manicure",
-          "price": "€30",
+          "name": "Knippen + Shampoo + Brushing",
+          "price": "€35 - €45",
+          "duration": "60 min"
+        },
+        { "name": "Shampoo + Knippen", "price": "€35", "duration": "45 min" },
+        {
+          "name": "Shampoo + Brushing",
+          "price": "€25",
           "duration": "30 min"
         },
         {
-          "name": "Pedicure",
-          "price": "€40",
-          "duration": "45 min"
+          "name": "Kinderknipbeurt",
+          "price": "€20 - €25",
+          "duration": "20 min"
+        },
+        { "name": "Haarmasker", "price": "€10", "duration": "15 min" }
+      ]
+    },
+    {
+      "name": "Kleuring",
+      "icon": "palette",
+      "services": [
+        { "name": "Uitgroei Kleuren", "price": "€60", "duration": "60 min" },
+        {
+          "name": "Volledige Kleuring",
+          "price": "€60 - €100",
+          "duration": "90 min"
         },
         {
-          "name": "Gel nagels",
-          "price": "€55",
-          "duration": "1u15"
+          "name": "Highlights",
+          "price": "€70 - €200",
+          "duration": "120 min"
         },
+        { "name": "Balayage", "price": "€60 - €300", "duration": "120 min" },
+        { "name": "Kleuring + Brushing", "price": "€50", "duration": "60 min" },
+        { "name": "Permanent", "price": "€60 - €250", "duration": "150 min" },
+        { "name": "Ombré — Vanaf", "price": "€130", "duration": "120 min" }
+      ]
+    },
+    {
+      "name": "Haarstijlen & Behandelingen",
+      "icon": "sparkles",
+      "services": [
         {
-          "name": "Nail art",
-          "price": "Vanaf €10",
-          "duration": "15 min"
+          "name": "Tot aan de Nek",
+          "price": "€100 - €200",
+          "duration": "120 min"
+        },
+        { "name": "Tot Midden Rug", "price": "€150", "duration": "150 min" },
+        {
+          "name": "Onder de Schouderbladen",
+          "price": "€200",
+          "duration": "180 min"
+        },
+        { "name": "Opsteekkapsel", "price": "€45", "duration": "45 min" },
+        { "name": "Avondkapsel", "price": "€35", "duration": "45 min" },
+        { "name": "Bruidskapsel", "price": "€100", "duration": "90 min" },
+        { "name": "Haarverlengingen", "price": "Op aanvraag", "duration": "—" }
+      ]
+    },
+    {
+      "name": "Ontharing",
+      "icon": "zap",
+      "services": [
+        { "name": "Gezicht", "price": "€25", "duration": "15 min" },
+        { "name": "Bikinilijn", "price": "€20", "duration": "15 min" },
+        { "name": "Volledige Benen", "price": "€20", "duration": "40 min" },
+        { "name": "Halve Benen", "price": "€15", "duration": "20 min" },
+        { "name": "Oksels", "price": "€10", "duration": "10 min" },
+        { "name": "Halve Armen", "price": "€15", "duration": "15 min" },
+        { "name": "Volledig Lichaam", "price": "€50 - €60", "duration": "60 min" }
+      ]
+    },
+    {
+      "name": "Gezichtsbehandelingen",
+      "icon": "sparkles",
+      "services": [
+        { "name": "Diepe Reiniging", "price": "€50", "duration": "60 min" },
+        { "name": "Peeling", "price": "€90", "duration": "60 min" },
+        {
+          "name": "Youth Glow Behandeling",
+          "price": "€80",
+          "duration": "75 min"
         }
       ]
     },
-
-    "beauty": {
-      "title": "Beauty behandelingen",
+    {
+      "name": "Make-up",
+      "icon": "palette",
       "services": [
+        { "name": "Dagmake-up", "price": "€25 - €45", "duration": "30 min" },
         {
-          "name": "Lash lift zonder kleuring",
-          "price": "€50",
-          "duration": "45 min"
-        },
-        {
-          "name": "Lash lift met kleuring",
-          "price": "€60",
-          "duration": "1u"
-        },
-        {
-          "name": "Wenkbrauwen shaping",
-          "price": "€20",
-          "duration": "20 min"
-        },
-        {
-          "name": "Make-up",
-          "price": "Vanaf €45",
+          "name": "Avondmake-up",
+          "price": "€35 - €65",
           "duration": "45 min"
         }
       ]
+    },
+    {
+      "name": "Wimpers & Wenkbrauwen",
+      "icon": "sparkles",
+      "services": [
+        { "name": "Lash Lift", "price": "€40", "duration": "45 min" },
+        {
+          "name": "Brow Lamination + Tint",
+          "price": "€50",
+          "duration": "45 min"
+        },
+        { "name": "Wenkbrauw Tint", "price": "€10", "duration": "15 min" },
+        { "name": "Wenkbrauw Wax", "price": "€10", "duration": "10 min" },
+        { "name": "Lash Lamination", "price": "€40", "duration": "45 min" },
+        {
+          "name": "Lash Lamination + Tint",
+          "price": "€60",
+          "duration": "60 min"
+        },
+        {
+          "name": "Wimperextensions (set)",
+          "price": "€60",
+          "duration": "60 min"
+        },
+        {
+          "name": "Individuele Wimperextensions",
+          "price": "€80",
+          "duration": "90 min"
+        }
+      ]
     }
-  },
+  ]
+},
   "bookingPage": {
     "title": {
       "main": "Boek uw",
@@ -325,8 +360,8 @@
       "phone": "+32 XXX XX XX XX",
       "email_label": "E-mail",
       "email": "[contact@salon.com](mailto:contact@salon.com)",
-      "hours_label": "Openingstijden",
-      "hours": "Ma - Za\n09:00 - 18:00"
+      "hours_label": "Openingsuren",
+      "hours": "Ma - Zo\n09:00 - 19:00"
     }
   },
   "footer": {

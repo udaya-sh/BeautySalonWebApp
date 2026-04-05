@@ -1,46 +1,30 @@
-// EmailTemplate.tsx
-import React from "react";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 interface EmailTemplateProps {
   name: string;
   email: string;
-  companyName: string;
   phone: string;
-  selectedService: string;
   message: string;
 }
 
-export const EmailTemplate: React.FC<EmailTemplateProps> = ({
-  name,
-  email,
-  companyName,
-  phone,
-  selectedService,
-  message,
-}) => {
-  const t = useTranslations("emailTemplate");
+export async function EmailTemplate(data: EmailTemplateProps) {
+
+  const t = await getTranslations("contact.form");
 
   return (
     <div>
-      <h1>{t("title")}</h1>
+      {/* <h1>{t("title")}</h1> */}
       <p>
-        <strong>{t("name")}:</strong> {name}
+        <strong>{t("name")}:</strong> {data.name}
       </p>
       <p>
-        <strong>{t("email")}:</strong> {email}
+        <strong>{t("email")}:</strong> {data.email}
       </p>
       <p>
-        <strong>{t("companyName")}:</strong> {companyName}
+        <strong>{t("phone")}:</strong> {data.phone}
       </p>
       <p>
-        <strong>{t("phone")}:</strong> {phone}
-      </p>
-      <p>
-        <strong>{t("selectedService")}:</strong> {selectedService}
-      </p>
-      <p>
-        <strong>{t("message")}:</strong> {message}
+        <strong>{t("message")}:</strong> {data.message}
       </p>
     </div>
   );
