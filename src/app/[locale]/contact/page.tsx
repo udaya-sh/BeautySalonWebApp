@@ -81,7 +81,7 @@ export default function Contact() {
       label: t("info.address_label"),
       value: "Av. Gustave Latinis 43, 1030 Schaerbeek",
     },
-    { icon: Phone, label: t("info.phone_label"), value: "0465914824" },
+    { icon: Phone, label: t("info.phone_label"), value: "+32465914824" },
     {
       icon: Mail,
       label: t("info.email_label"),

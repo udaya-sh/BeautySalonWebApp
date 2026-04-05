@@ -66,15 +66,15 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border/40">
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-7xl mx-auto  flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href={`/${currentLang}`} className="flex items-center gap-3">
+        <Link href={`/${currentLang}`} className="flex items-center -ml-10 ">
           <Image
             src={LOGO}
             alt="Maison de Beauté logo"
             width={200}
             height={200}
-            className=" mt-3 w-auto"
+            className=" mt-3"
             priority
             fetchPriority="high"
           />
@@ -142,20 +142,49 @@ export default function Navbar() {
         </div>
 
         {/* Mobile */}
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2"
-          aria-label="Toggle menu"
-        >
-          {mobileOpen ? (
-            <X className="w-5 h-5" />
-          ) : (
-            <Menu className="w-5 h-5" />
-          )}
-        </button>
+        <div className="flex md:hidden items-center gap-3">
+          <DropdownMenu modal={false}>
+            <DropdownMenuTrigger asChild>
+              <Button
+                variant="ghost"
+                className={`px-3 py-2 text-sm font-medium flex items-center cursor-pointer
+                  ${languageButtonClass}`}
+              >
+                <Globe size={16} className="mr-2" /> {currentLangDetails.flag}{" "}
+                <ChevronDown size={16} className="" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent
+              align="end"
+              className=" bg-background border-border shadow-soft-lg  "
+            >
+              {languages.map((lang) => (
+                <DropdownMenuItem
+                  key={lang.code}
+                  onClick={() => changeLanguage(lang.code)}
+                  className={`cursor-pointer hover:bg-primary/10 focus:bg-primary/10 ${baseTextColor}`}
+                >
+                  {lang.flag} {lang.name}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="md:hidden p-2"
+            aria-label="Toggle menu"
+          >
+            {mobileOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
+          </button>
+        </div>
       </div>
 
       {/* Mobile menu */}
+
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
