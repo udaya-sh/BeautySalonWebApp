@@ -16,7 +16,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 
-const LOGO = "/logo.png";
+const LOGO = "/logo1.png";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -68,13 +68,13 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/70 backdrop-blur-xl border-b border-border/40">
       <div className="max-w-7xl mx-auto  flex items-center justify-between h-16 md:h-20">
         {/* Logo */}
-        <Link href={`/${currentLang}`} className="flex items-center -ml-10 ">
+        <Link href={`/${currentLang}`} className="flex items-center  ">
           <Image
             src={LOGO}
             alt="Maison de Beauté logo"
             width={200}
             height={200}
-            className=" mt-3"
+             className=" w-full max-w-[95px] sm-max-w-[200px]  object-contain"
             priority
             fetchPriority="high"
           />
