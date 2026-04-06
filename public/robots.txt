@@ -7,3 +7,4 @@ Disallow: /accounts
 # Allow all crawlers
 User-agent: *
 Allow: /
+Sitemap: https://maisondebeauté.be/sitemap.xml

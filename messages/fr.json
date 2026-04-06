@@ -193,9 +193,9 @@
           "duration": "120 min"
         },
         { "name": "Balayage", "price": "€60 - €300", "duration": "120 min" },
-        { "name": "Coloration + Brushing", "price": "€50", "duration": "60 min" },
+        { "name": "Coulage + Brushing", "price": "€50", "duration": "60 min" },
         { "name": "Permanente", "price": "€60 - €250", "duration": "150 min" },
-        { "name": "Ombré — À partir de", "price": "€130", "duration": "120 min" }
+        { "name": "Ombré - À partir de", "price": "€130", "duration": "120 min" }
       ]
     },
     {
@@ -239,8 +239,8 @@
         { "name": "Nettoyage en Profondeur", "price": "€50", "duration": "60 min" },
         { "name": "Peeling", "price": "€90", "duration": "60 min" },
         {
-          "name": "Soin Éclat Jeunesse",
-          "price": "€80",
+          "name": "Soin Hydrofacial",
+          "price": "€90",
           "duration": "75 min"
         }
       ]

@@ -189,7 +189,7 @@
           { "name": "Balayage", "price": "€60 - €300", "duration": "120 min" },
           { "name": "Colour + Blow-dry", "price": "€50", "duration": "60 min" },
           { "name": "Perm", "price": "€60 - €250", "duration": "150 min" },
-          { "name": "Ombré — From", "price": "€130", "duration": "120 min" }
+          { "name": "Ombré - From", "price": "€130", "duration": "120 min" }
         ]
       },
       {
@@ -233,8 +233,8 @@
           { "name": "Deep Cleansing", "price": "€50", "duration": "60 min" },
           { "name": "Peeling", "price": "€90", "duration": "60 min" },
           {
-            "name": "Youth Glow Treatment",
-            "price": "€80",
+            "name": "Hydrofacial",
+            "price": "€90",
             "duration": "75 min"
           }
         ]

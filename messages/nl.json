@@ -187,9 +187,9 @@
           "duration": "120 min"
         },
         { "name": "Balayage", "price": "€60 - €300", "duration": "120 min" },
-        { "name": "Kleuring + Brushing", "price": "€50", "duration": "60 min" },
+        { "name": "Haarglans + Brushing", "price": "€50", "duration": "60 min" },
         { "name": "Permanent", "price": "€60 - €250", "duration": "150 min" },
-        { "name": "Ombré — Vanaf", "price": "€130", "duration": "120 min" }
+        { "name": "Ombré - Vanaf", "price": "€130", "duration": "120 min" }
       ]
     },
     {
@@ -233,8 +233,8 @@
         { "name": "Diepe Reiniging", "price": "€50", "duration": "60 min" },
         { "name": "Peeling", "price": "€90", "duration": "60 min" },
         {
-          "name": "Youth Glow Behandeling",
-          "price": "€80",
+          "name": "Hydrofacial behandeling",
+          "price": "€90",
           "duration": "75 min"
         }
       ]
